@@ -1,0 +1,43 @@
+{
+  "title": "HuaiBook's Title",
+  "author": "Huai",
+  "description": "记笔记的地方",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "structure": {
+    "readme": "README.md"
+  },
+  "plugins": [
+    "-sharing",
+    "github",
+    "expandable-chapters"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/Huai-Dc"
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": true,
+      "qzone": false,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "google", "facebook", "weibo", "twitter",
+        "qq", "qzone", "linkedin", "pocket"
+      ]
+    }
+  }
+}
