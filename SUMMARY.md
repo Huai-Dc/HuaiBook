@@ -12,3 +12,5 @@
         * [虚拟DOM](Vue/interview/interview_vdom.md)
         * [参数传递](Vue/interview/interview_paramsPassing.md)
         * [class与style](Vue/interview/interview_class&style.md)
+    * Vuex
+        * [vuex知识点](Vue/interview/interview_vueX.md)
