@@ -14,3 +14,5 @@
         * [class与style](Vue/interview/interview_class&style.md)
     * Vuex
         * [vuex知识点](Vue/interview/interview_vueX.md)
+* 代码优化
+    * [vue代码优化](Optimize/interview_optimize_vue.md)

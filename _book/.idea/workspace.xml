@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e716cb1-bf8a-49da-be48-c48ae760c5ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue/images/flow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue/images/vuex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue/interview/interview_vueX.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/Vue/images/flow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/Vue/images/vuex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Optimize/interview_optimize_normal.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Optimize/interview_optimize_vue.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUMMARY.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Css/interview_flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Css/interview_flex.html" afterDir="false" />
@@ -47,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -67,8 +60,17 @@
       <workItem from="1584091456961" duration="1305000" />
       <workItem from="1584321992847" duration="1398000" />
       <workItem from="1584339361023" duration="330000" />
-      <workItem from="1584342496849" duration="2713000" />
+      <workItem from="1584342496849" duration="3402000" />
+      <workItem from="1584592417472" duration="5776000" />
     </task>
+    <task id="LOCAL-00001" summary="提交 vuex 笔记">
+      <created>1584349477818</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584349477818</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,15 +81,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="提交 vuex 笔记" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交 vuex 笔记" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584091950401">
+    <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584593058574">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1584091950401" />
-    <state x="237" y="130" key="SettingsEditor" timestamp="1584342481094">
+    <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1584593058574" />
+    <state x="337" y="23" key="CommitChangelistDialog2" timestamp="1584349477616">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="237" y="130" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1584342481094" />
+    <state x="337" y="23" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1584349477616" />
+    <state x="237" y="130" key="SettingsEditor" timestamp="1584349445098">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="237" y="130" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1584349445098" />
+    <state x="328" y="227" key="Vcs.Push.Dialog.v2" timestamp="1584349550117">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="328" y="227" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1584349550117" />
   </component>
 </project>
