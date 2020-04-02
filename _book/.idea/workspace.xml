@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e716cb1-bf8a-49da-be48-c48ae760c5ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Optimize/interview_optimize_normal.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Optimize/interview_optimize_vue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUMMARY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue/interview/interview_pack.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/Optimize/interview_optimize_vue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_pack.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_vueX.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/interview/interview_vueX.md" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/interview/interview_vueX.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Css/interview_flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Css/interview_flex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/ES6/interview_arrayExpand.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/ES6/interview_arrayExpand.html" afterDir="false" />
@@ -24,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1Z4HTRVfcGir5jVW5dxhqKbJVHB" />
   <component name="ProjectLevelVcsManager">
@@ -61,7 +64,12 @@
       <workItem from="1584321992847" duration="1398000" />
       <workItem from="1584339361023" duration="330000" />
       <workItem from="1584342496849" duration="3402000" />
-      <workItem from="1584592417472" duration="5776000" />
+      <workItem from="1584592417472" duration="6157000" />
+      <workItem from="1584931290714" duration="20000" />
+      <workItem from="1584953044166" duration="4834000" />
+      <workItem from="1585184959739" duration="292000" />
+      <workItem from="1585185273056" duration="6803000" />
+      <workItem from="1585547376814" duration="1863000" />
     </task>
     <task id="LOCAL-00001" summary="提交 vuex 笔记">
       <created>1584349477818</created>
@@ -70,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584349477818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="性能优化笔记">
+      <created>1584604709980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584604709980</updated>
+    </task>
+    <task id="LOCAL-00003" summary="vue3 题目提交">
+      <created>1584958727686</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584958727686</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,24 +104,40 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交 vuex 笔记" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交 vuex 笔记" />
+    <MESSAGE value="性能优化笔记" />
+    <MESSAGE value="vue3 题目提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue3 题目提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584593058574">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1584593058574" />
-    <state x="337" y="23" key="CommitChangelistDialog2" timestamp="1584349477616">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1584958727567">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1584958727567" />
     <state x="337" y="23" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1584349477616" />
     <state x="237" y="130" key="SettingsEditor" timestamp="1584349445098">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="237" y="130" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1584349445098" />
-    <state x="328" y="227" key="Vcs.Push.Dialog.v2" timestamp="1584349550117">
+    <state x="328" y="226" key="Vcs.Push.Dialog.v2" timestamp="1584958737707">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="328" y="226" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1584958737707" />
+    <state x="328" y="227" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1584349550117" />
+    <state x="802" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585098444687">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="328" y="227" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1584349550117" />
+    <state x="802" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.977@0.23.1920.977" timestamp="1585098444687" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1584957293712">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1584957293712" />
+    <state x="690" y="425" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1585185190407">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="690" y="425" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1920.977@0.23.1920.977" timestamp="1585185190407" />
   </component>
 </project>

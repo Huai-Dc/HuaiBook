@@ -1,3 +1,83 @@
+## store的替代方案
+### bus 中央事件总线
+```js
+// vue-bus.js
+// Vue.use(对象) 时 会自动执行 install 方法
+const install = (Vue) => {
+    const Bus = new Vue({
+        methods: {
+            emit(event, ...args){
+                this.$emit(event, ...args)
+            },
+            on(event, callback){
+                this.$on(event, callback)
+            },
+            off(event, callback){
+                this.$off(event, callback)
+            },
+        }   
+    })
+    Vue.prototype.$bus = Bus;
+}
+export default install;
+```
+
+```js
+// mian.js
+import Bus from '../vue-bus.js'
+
+Vue.use(Bus);
+
+// 使用  组件1
+this.$bus.emit("add", params);
+
+// 组件2、
+this.bus.on("add", params => {
+    // code
+})
+```
+#### PS 注意事项
+- $bus.on 需要在created 阶段使用 在 mounted 可能接受不到其他组件来自 created 发出的事件
+- 需要手动解绑 在 beforeDestroy 中解除绑定
+
+### observable
+#### 用法
+让一个对象可响应，返回的对象可以直接用于 渲染函数与计算属性
+```js
+// store.js
+let store = Vue.observable({num: 1, name: "法外狂徒张三"})
+let mutations = {
+    changeNum(num){
+        store.num = num
+    },
+    changeName(name){
+        store.name = name
+    }
+}
+```
+
+```js
+import {store，mutations} from './store'
+{   // 取值
+    computed:{
+        num(){
+            return store.num
+        }
+    },
+    // 修改
+    methods:{
+        changeNum(num){
+            mutations.changeNum(num)
+        }
+    }
+}
+```
+
+
+
+***
+
+
 ## Vuex
 - vuex 数据流图
 ![vuex](../images/vuex.png)
@@ -10,7 +90,7 @@
 ```js
 {
     computed:{
-        count(){
+        count() {
             return store.state.count;
         }
     }
