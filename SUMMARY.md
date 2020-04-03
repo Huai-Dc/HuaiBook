@@ -17,3 +17,5 @@
         * [vuex知识点](Vue/interview/interview_vueX.md)
 * 代码优化
     * [vue代码优化](Optimize/interview_optimize_vue.md)
+* 设计模式
+    * [工厂模式](DesignMode/interview_mode_factory.md)

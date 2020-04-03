@@ -4,6 +4,9 @@
   "description": "记笔记的地方",
   "language": "zh-hans",
   "gitbook": "3.2.3",
+  "styles": {
+    "website": "./styles/website.css"
+  },
   "structure": {
     "readme": "README.md"
   },
