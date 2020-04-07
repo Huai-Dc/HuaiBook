@@ -1,6 +1,7 @@
 ## 关于源码
-- 1. vue/react 核心的源码比较
+- 1.vue/react 核心的源码比较
 - Q: Vue3与Vue2的区别
+
 ```$xslt
 vue2 采用的是ES5 Object.defineProperty 去劫持属性的get set 但是有个弊端，无法监听到数组内部的数据变化
 Vue3 改用Proxy 说明vue 放弃了兼容IE 相比于Object.defineProperty 优势是可以检测到数组内部数据变化

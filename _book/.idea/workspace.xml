@@ -1,28 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e716cb1-bf8a-49da-be48-c48ae760c5ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Vue/interview/interview_pack.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/Optimize/interview_optimize_vue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_pack.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_vueX.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/interview/interview_vueX.md" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/interview/interview_vueX.md" afterDir="false" />
+    <list default="true" id="8e716cb1-bf8a-49da-be48-c48ae760c5ff" name="Default Changelist" comment="设计模式 提交">
+      <change afterPath="$PROJECT_DIR$/Optimize/images/SSR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Optimize/interview_ssr.md" beforeDir="false" afterPath="$PROJECT_DIR$/Optimize/interview_ssr.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUMMARY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/interview/interview_vue3.md" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/interview/interview_vue3.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Css/interview_flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Css/interview_flex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/ES6/interview_arrayExpand.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/ES6/interview_arrayExpand.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/ES6/interview_arrayMethods.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/ES6/interview_arrayMethods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/ES6/interview_iterator.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/ES6/interview_iterator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Optimize/interview_optimize_vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Optimize/interview_optimize_vue.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_class&amp;style.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_class&amp;style.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_mvvm.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_mvvm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_paramsPassing.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_paramsPassing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_render&amp;template.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_render&amp;template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_vdom.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_vdom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_vue3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_vue3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_vueX.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_vueX.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/_book/search_index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/website.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/website.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,10 +54,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Optimize/images" />
       <recent name="$PROJECT_DIR$/Vue/images" />
     </key>
   </component>
@@ -69,7 +82,13 @@
       <workItem from="1584953044166" duration="4834000" />
       <workItem from="1585184959739" duration="292000" />
       <workItem from="1585185273056" duration="6803000" />
-      <workItem from="1585547376814" duration="1863000" />
+      <workItem from="1585547376814" duration="2693000" />
+      <workItem from="1585794431281" duration="1475000" />
+      <workItem from="1585798182984" duration="9368000" />
+      <workItem from="1585897188061" duration="1497000" />
+      <workItem from="1585901295699" duration="1568000" />
+      <workItem from="1586222011276" duration="402000" />
+      <workItem from="1586223437544" duration="853000" />
     </task>
     <task id="LOCAL-00001" summary="提交 vuex 笔记">
       <created>1584349477818</created>
@@ -92,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584958727686</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="vue3 题目提交">
+      <created>1585823102351</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585823102351</updated>
+    </task>
+    <task id="LOCAL-00005" summary="设计模式 提交">
+      <created>1585903183252</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585903183252</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,27 +139,28 @@
     <MESSAGE value="提交 vuex 笔记" />
     <MESSAGE value="性能优化笔记" />
     <MESSAGE value="vue3 题目提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue3 题目提交" />
+    <MESSAGE value="设计模式 提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式 提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584593058574">
+    <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585896780750">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1584593058574" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1584958727567">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1585896780750" />
+    <state x="337" y="23" key="CommitChangelistDialog2" timestamp="1585903183083">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1584958727567" />
-    <state x="337" y="23" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1584349477616" />
+    <state x="337" y="23" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1585903183083" />
     <state x="237" y="130" key="SettingsEditor" timestamp="1584349445098">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="237" y="130" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1584349445098" />
-    <state x="328" y="226" key="Vcs.Push.Dialog.v2" timestamp="1584958737707">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="328" y="227" key="Vcs.Push.Dialog.v2" timestamp="1585903184909">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="328" y="226" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1584958737707" />
-    <state x="328" y="227" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1584349550117" />
+    <state x="328" y="227" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1585903184909" />
     <state x="802" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585098444687">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
