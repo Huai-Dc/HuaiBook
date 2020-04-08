@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e716cb1-bf8a-49da-be48-c48ae760c5ff" name="Default Changelist" comment="设计模式 提交">
-      <change afterPath="$PROJECT_DIR$/Optimize/images/SSR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Optimize/interview_ssr.md" beforeDir="false" afterPath="$PROJECT_DIR$/Optimize/interview_ssr.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUMMARY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/interview/interview_vue3.md" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/interview/interview_vue3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/DesignMode/interview_mode_factory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/test/mvvm_defineProperty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/interview_classics.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/interview_classics.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Css/interview_flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Css/interview_flex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/ES6/interview_arrayExpand.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/ES6/interview_arrayExpand.html" afterDir="false" />
@@ -17,11 +16,9 @@
       <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_paramsPassing.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_paramsPassing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_render&amp;template.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_render&amp;template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_vdom.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_vdom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_vue3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_vue3.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_vueX.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_vueX.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/_book/search_index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/website.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/website.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +86,7 @@
       <workItem from="1585901295699" duration="1568000" />
       <workItem from="1586222011276" duration="402000" />
       <workItem from="1586223437544" duration="853000" />
+      <workItem from="1586313086922" duration="7187000" />
     </task>
     <task id="LOCAL-00001" summary="提交 vuex 笔记">
       <created>1584349477818</created>

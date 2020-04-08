@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 id="name"></h1>
+    <input type="text"/>
+    <input type="button" value="改变data内容" onclick="changeInput()">
+
+
+<script>
+    class Dep{
+        constructor() {
+            this.subs = [];
+        }
+        addSub(sub){
+            this.subs.push(sub);
+        }
+        depend(){
+            if(Dep.target){
+                this.addSub(Dep.target);
+            }
+        }
+        notify(){
+            this.subs.forEach(sub => {
+                sub.update();
+            })
+        }
+    }
+    Dep.target = null;
+
+    class Watcher{
+        constructor(vm, exp, cb) {
+            this.vm = vm;
+            this.exp = exp;
+            this.cb = cb;
+            this.value = this.get()
+        }
+        get(){
+            Dep.target = this;
+            let value = this.vm.data[this.exp];
+            Dep.target = null; // 释放
+            return value;
+        }
+        update(){
+            let value = this.vm.data[this.exp];
+            let oldValue = this.value;
+            if(oldValue !== value){
+                this.value = value;
+                this.cb.call(this.vm, value, oldValue);
+            }
+        }
+    }
+
+    let ele = document.querySelector('#name');
+    let input = document.querySelector('input');
+
+    let Vue = new myVue({
+        name: 'hello world'
+    }, ele, 'name');
+
+    console.log(Vue)
+
+    //改变输入框内容
+    input.oninput = function (e) {
+        console.log(111)
+        Vue.data.name = e.target.value
+    }
+
+    function myVue(data, el, exp) {
+        this.data = data;
+        observable(data);
+        el.innerHTML = this.data[exp];
+        new Watcher(this, exp, function (value) {
+            el.innerHTML = value
+        })
+
+        return this;
+    }
+    // Observer
+    function observable(data){
+        if(!data || typeof data !== 'object'){
+            throw ReferenceError('data is not defined');
+        }
+
+        let keys = Object.keys(data);
+        keys.forEach((key) =>{
+            defineReactive(data,key,data[key])
+        });
+
+        return data;
+    }
+
+    function defineReactive (obj,key,val) {
+        let dep = new Dep();
+        Object.defineProperty(obj, key, {
+            get(){
+                dep.depend();
+                console.log(`${key}属性被读取了`);
+                return val;
+            },
+            set(newVal){
+                val = newVal;
+                console.log(`${key}属性被修改了`);
+                dep.notify()                    //数据变化通知所有订阅者
+            }
+        })
+    }
+
+
+
+    function changeInput(){
+        Vue.data.name = "halo world"
+    }
+</script>
+</body>
+</html>

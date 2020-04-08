@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>遍历方法 · HuaiBook's Title</title>
+        <title>工厂模式 · HuaiBook's Title</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -52,8 +52,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
-    
-    <link rel="next" href="interview_arrayMethods.html" />
     
     
 
@@ -161,9 +159,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.3.1" data-path="interview_iterator.html">
+        <li class="chapter " data-level="1.3.1" data-path="../ES6/interview_iterator.html">
             
-                <a href="interview_iterator.html">
+                <a href="../ES6/interview_iterator.html">
             
                     
                     遍历方法
@@ -174,9 +172,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2" data-path="interview_arrayMethods.html">
+        <li class="chapter " data-level="1.3.2" data-path="../ES6/interview_arrayMethods.html">
             
-                <a href="interview_arrayMethods.html">
+                <a href="../ES6/interview_arrayMethods.html">
             
                     
                     数组方法
@@ -187,9 +185,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.3" data-path="interview_arrayExpand.html">
+        <li class="chapter " data-level="1.3.3" data-path="../ES6/interview_arrayExpand.html">
             
-                <a href="interview_arrayExpand.html">
+                <a href="../ES6/interview_arrayExpand.html">
             
                     
                     数组拓展
@@ -399,9 +397,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.6.1" data-path="../DesignMode/interview_mode_factory.html">
+        <li class="chapter active" data-level="1.6.1" data-path="interview_mode_factory.html">
             
-                <a href="../DesignMode/interview_mode_factory.html">
+                <a href="interview_mode_factory.html">
             
                     
                     工厂模式
@@ -447,7 +445,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >遍历方法</a>
+        <a href=".." >工厂模式</a>
     </h1>
 </div>
 
@@ -462,57 +460,93 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="&#x904D;&#x5386;&#x5668;">&#x904D;&#x5386;&#x5668;</h2>
-<p>js&#x4E2D;&#x539F;&#x672C;&#x8868;&#x793A;&#x96C6;&#x5408;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x4E3B;&#x8981;&#x6709; <code>&#x6570;&#x7EC4;</code>&#x3001; <code>&#x5BF9;&#x8C61;</code> ES6 &#x53C8;&#x6DFB;&#x52A0;&#x4E86; Map &#x4E0E; Set&#xFF0C;&#x904D;&#x5386;&#x5668;&#x5C31;&#x662F;&#x7528;&#x6765;&#x4E3A;&#x4E0D;&#x540C;&#x7684;&#x6570;&#x636E;
-&#x7ED3;&#x6784;&#x63D0;&#x4F9B;&#x7EDF;&#x4E00;&#x7684;&#x8BBF;&#x95EE;&#x673A;&#x5236;&#x3002;</p>
-<h4 id="&#x904D;&#x5386;&#x8FC7;&#x7A0B;">&#x904D;&#x5386;&#x8FC7;&#x7A0B;</h4>
+                                <h2 id="&#x5DE5;&#x5382;&#x6A21;&#x5F0F;">&#x5DE5;&#x5382;&#x6A21;&#x5F0F;</h2>
 <ul>
-<li>1.&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6307;&#x9488;&#x5BF9;&#x8C61;&#xFF0C;&#x6307;&#x5411;&#x5F53;&#x524D;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7684;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;&#xFF0C;&#x6240;&#x4EE5;&#x904D;&#x5386;&#x5668;&#x672C;&#x8D28;&#x4E0A;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x6307;&#x9488;&#x5BF9;&#x8C61;&#x3002;</li>
-<li>2.&#x7B2C;&#x4E00;&#x6B21;&#x8C03;&#x7528;&#x6307;&#x9488;&#x5BF9;&#x8C61;&#x7684;next&#x65B9;&#x6CD5;&#xFF0C;&#x53EF;&#x4EE5;&#x5C06;&#x6307;&#x9488;&#x6307;&#x5411;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x6210;&#x5458;</li>
-<li>3.&#x4E0D;&#x65AD;&#x8C03;&#x7528;&#x6307;&#x9488;&#x5BF9;&#x8C61;&#xFF0C;&#x76F4;&#x5230;&#x6307;&#x5411;&#x6700;&#x540E;&#x7684;&#x7ED3;&#x675F;&#x4F4D;&#x7F6E;</li>
-<li>4.&#x6BCF;&#x6B21;&#x8C03;&#x7528; next &#x90FD;&#x4F1A;&#x8FD4;&#x56DE;&#x5F53;&#x524D;&#x6210;&#x5458;&#x7684;&#x4FE1;&#x606F; <code>value</code> &#x4E0E;&#x662F;&#x5426;&#x7ED3;&#x675F;&#x904D;&#x5386; <code>done</code></li>
-</ul>
-<h4 id="&#x539F;&#x751F;&#x5177;&#x5907;&#x904D;&#x5386;&#x5668;&#x63A5;&#x53E3;&#x7684;&#x5BF9;&#x8C61;">&#x539F;&#x751F;&#x5177;&#x5907;&#x904D;&#x5386;&#x5668;&#x63A5;&#x53E3;&#x7684;&#x5BF9;&#x8C61;</h4>
-<ul>
-<li>Array</li>
-<li>Map</li>
-<li>Set</li>
-<li>String</li>
-<li>TypedArray</li>
-<li>&#x51FD;&#x6570;&#x7684; arguments &#x5BF9;&#x8C61;</li>
-<li>NodeList &#x5BF9;&#x8C61;</li>
-</ul>
-<h4 id="&#x4F7F;&#x7528;&#x573A;&#x666F;">&#x4F7F;&#x7528;&#x573A;&#x666F;</h4>
-<ul>
-<li>&#x89E3;&#x6784;&#x8D4B;&#x503C;</li>
-</ul>
-<pre><code class="lang-js"><span class="hljs-keyword">let</span> set = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Set</span>().add(<span class="hljs-number">1</span>).add(<span class="hljs-number">2</span>).add(<span class="hljs-number">3</span>)
-
-<span class="hljs-keyword">let</span> [a, b] = set;
-<span class="hljs-comment">// a = 1, b = 2</span>
-<span class="hljs-keyword">let</span> [first, ...rest] = set;
-<span class="hljs-comment">// first = 1, rest = [2,3]</span>
-</code></pre>
-<ul>
-<li>&#x62D3;&#x5C55;&#x8FD0;&#x7B97;&#x7B26;</li>
-</ul>
-<pre><code class="lang-js"><span class="hljs-keyword">var</span> str = <span class="hljs-string">&apos;hello&apos;</span>;
-[...str] <span class="hljs-comment">//  [&apos;h&apos;,&apos;e&apos;,&apos;l&apos;,&apos;l&apos;,&apos;o&apos;]</span>
-</code></pre>
-<ul>
-<li><p>yield*</p>
-<p>  <code>yield*</code>&#x540E;&#x9762;&#x8DDF;&#x7684;&#x662F;&#x4E00;&#x4E2A;&#x53EF;&#x904D;&#x5386;&#x7ED3;&#x6784;</p>
+<li>&#x7528;&#x4E8E;&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x7684;&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#xFF0C; &#x4E0D;&#x66B4;&#x9732;&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x7684;&#x5177;&#x4F53;&#x903B;&#x8F91;&#xFF0C;&#x5C06;&#x903B;&#x8F91;&#x5C01;&#x88C5;&#x4E8E;&#x51FD;&#x6570;&#x4E2D;<h3 id="&#x5206;&#x7C7B;">&#x5206;&#x7C7B;</h3>
 </li>
+<li>&#x7B80;&#x5355;&#x5DE5;&#x5382;&#xFF08;&#x9759;&#x6001;&#x5DE5;&#x5382;&#x65B9;&#x6CD5;&#xFF09;</li>
+<li>&#x590D;&#x6742;&#x5DE5;&#x5382;</li>
+<li>&#x62BD;&#x8C61;&#x5DE5;&#x5382;<h3 id="&#x7B80;&#x5355;&#x5DE5;&#x5382;">&#x7B80;&#x5355;&#x5DE5;&#x5382;</h3>
+</li>
+<li>&#x4F20;&#x5165;&#x4E00;&#x4E2A;&#x5408;&#x6CD5;&#x53C2;&#x6570;&#xFF0C;&#x5C31;&#x80FD;&#x83B7;&#x53D6;&#x60F3;&#x8981;&#x7684;&#x5BF9;&#x8C61;&#xFF0C; &#x4E0D;&#x9700;&#x8981;new &#x5173;&#x952E;&#x5B57;&#x6765;&#x521B;&#x5EFA;&#x65B0;&#x5B9E;&#x4F8B;</li>
+<li>&#x51FD;&#x6570;&#x5185;&#x90E8;&#x5305;&#x542B;&#x6240;&#x6709;&#x5BF9;&#x8C61;&#x7684;&#x6784;&#x9020;&#x4E0E;&#x903B;&#x8F91;&#x5224;&#x65AD;</li>
+<li>&#x4F7F;&#x7528;&#x4E00;&#x4E2A;&#x7C7B;&#x6765;&#x751F;&#x6210;&#x5B9E;&#x4F8B;&#xFF0C; &#x7F3A;&#x70B9;&#x5C31;&#x662F;&#x5F53;&#x7C7B;&#x578B;&#x8F83;&#x591A;&#x7684;&#x65F6;&#x5019;&#x4E0D;&#x5229;&#x4E8E;&#x7EF4;&#x62A4;</li>
 </ul>
-<pre><code class="lang-js"><span class="hljs-keyword">let</span> generator = <span class="hljs-function"><span class="hljs-keyword">function</span>* (<span class="hljs-params"></span>) </span>{
-  <span class="hljs-keyword">yield</span> <span class="hljs-number">1</span>;
-  <span class="hljs-keyword">yield</span>* [<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>];
-  <span class="hljs-keyword">yield</span> <span class="hljs-number">5</span>;
-};
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> factory = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">role</span>) </span>{
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">superman</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">this</span>.name =<span class="hljs-string">&apos;&#x8D85;&#x7EA7;&#x7BA1;&#x7406;&#x5458;&apos;</span>;
+        <span class="hljs-keyword">this</span>.role = [<span class="hljs-string">&apos;&#x4FEE;&#x6539;&#x5BC6;&#x7801;&apos;</span>, <span class="hljs-string">&apos;&#x53D1;&#x5E03;&#x6D88;&#x606F;&apos;</span>, <span class="hljs-string">&apos;&#x67E5;&#x770B;&#x4E3B;&#x9875;&apos;</span>]
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">commonMan</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">this</span>.name = <span class="hljs-string">&apos;&#x666E;&#x901A;&#x6E38;&#x5BA2;&apos;</span>;
+        <span class="hljs-keyword">this</span>.role = [<span class="hljs-string">&apos;&#x67E5;&#x770B;&#x4E3B;&#x9875;&apos;</span>]
+    }
+
+    <span class="hljs-keyword">switch</span>(role) {
+        <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;superman&apos;</span>:
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> superman();
+            <span class="hljs-keyword">break</span>;
+        <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;man&apos;</span>:
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> commonMan();
+            <span class="hljs-keyword">break</span>;
+        <span class="hljs-keyword">default</span>:
+            <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;&#x53C2;&#x6570;&#x9519;&#x8BEF;&apos;</span>)
+    }
+}
+
+<span class="hljs-keyword">let</span> superman = factory(<span class="hljs-string">&apos;superman&apos;</span>);
+<span class="hljs-keyword">let</span> man = factory(<span class="hljs-string">&apos;man&apos;</span>);
 </code></pre>
-<h4 id="forof-&#x5FAA;&#x73AF;">for...of &#x5FAA;&#x73AF;</h4>
+<h3 id="&#x590D;&#x6742;&#x5DE5;&#x5382;&#x6A21;&#x5F0F;">&#x590D;&#x6742;&#x5DE5;&#x5382;&#x6A21;&#x5F0F;</h3>
+<pre><code class="lang-js"><span class="hljs-comment">// &#x5B89;&#x5168;&#x6A21;&#x5F0F;&#x521B;&#x5EFA;&#x7684;&#x5DE5;&#x5382;&#x65B9;&#x6CD5;&#x51FD;&#x6570;</span>
+<span class="hljs-keyword">let</span> factory = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">role</span>) </span>{
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span> <span class="hljs-keyword">instanceof</span> factory) {
+        <span class="hljs-keyword">var</span> s = <span class="hljs-keyword">new</span> <span class="hljs-keyword">this</span>[role]();
+        <span class="hljs-keyword">return</span> s;
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> factory(role);
+    }
+}
+
+factory.prototype = {
+    admin: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">this</span>.name = <span class="hljs-string">&apos;&#x5E73;&#x53F0;&#x7528;&#x6237;&apos;</span>;
+        <span class="hljs-keyword">this</span>.role = [<span class="hljs-string">&apos;&#x767B;&#x5F55;&#x9875;&apos;</span>, <span class="hljs-string">&apos;&#x4E3B;&#x9875;&apos;</span>]
+
+    },
+    common: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">this</span>.name = <span class="hljs-string">&apos;&#x6E38;&#x5BA2;&apos;</span>;
+        <span class="hljs-keyword">this</span>.role = [<span class="hljs-string">&apos;&#x767B;&#x5F55;&#x9875;&apos;</span>]
+    },
+    test: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">this</span>.name = <span class="hljs-string">&apos;&#x6D4B;&#x8BD5;&apos;</span>;
+        <span class="hljs-keyword">this</span>.role =  [<span class="hljs-string">&apos;&#x767B;&#x5F55;&#x9875;&apos;</span>, <span class="hljs-string">&apos;&#x4E3B;&#x9875;&apos;</span>, <span class="hljs-string">&apos;&#x6D4B;&#x8BD5;&#x9875;&apos;</span>];
+        <span class="hljs-keyword">this</span>.test = <span class="hljs-string">&apos;&#x6211;&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#x6D4B;&#x8BD5;&#x5C5E;&#x6027;&#x54E6;&apos;</span>
+    }
+}
+
+<span class="hljs-keyword">let</span> admin = <span class="hljs-keyword">new</span> factory(<span class="hljs-string">&apos;admin&apos;</span>);
+<span class="hljs-keyword">let</span> common = <span class="hljs-keyword">new</span> factory(<span class="hljs-string">&apos;common&apos;</span>);
+<span class="hljs-keyword">let</span> test = <span class="hljs-keyword">new</span> factory(<span class="hljs-string">&apos;test&apos;</span>);
+</code></pre>
 <ul>
-<li>&#x904D;&#x5386;&#x6570;&#x636E;&#x7684;&#x7EDF;&#x4E00;&#x65B9;&#x6CD5;</li>
+<li>&#x76F8;&#x8F83;&#x4E8E;&#x7B80;&#x5355;&#x5DE5;&#x5382;&#xFF0C; &#x6B64;&#x5904;&#x65B0;&#x589E;&#x6784;&#x9020;&#x53EA;&#x9700;&#x8981;&#x4FEE;&#x6539;&#x4E0B;&#x9762;&#x7684;&#x90E8;&#x5206;</li>
+<li>&#x9700;&#x8981;&#x7528;new&#x5173;&#x952E;&#x5B57;&#x5B9E;&#x4F8B;&#x5316;&#x65B0;&#x7684;&#x5B9E;&#x4F8B;</li>
+</ul>
+<h3 id="&#x62BD;&#x8C61;&#x5DE5;&#x5382;">&#x62BD;&#x8C61;&#x5DE5;&#x5382;</h3>
+<ul>
+<li><a href="https://www.cnblogs.com/jswang/p/7660669.html" target="_blank">&#x53C2;&#x8003;</a></li>
+<li>&#x62BD;&#x8C61;&#x5DE5;&#x5382;&#x662F;&#x5B9E;&#x73B0;&#x5B50;&#x7C7B;&#x7EE7;&#x627F;&#x7236;&#x7C7B;&#x7684;&#x65B9;&#x6CD5;</li>
+<li>js &#x4E2D;&#x6CA1;&#x6709;&#x5B9E;&#x73B0; abstract&#xFF0C; &#x53EF;&#x4EE5;&#x5728;&#x7C7B;&#x65B9;&#x6CD5;&#x4E2D;&#x629B;&#x51FA;&#x9519;&#x8BEF;&#x6765;&#x6A21;&#x62DF;</li>
+<li>&#x5C06;&#x5B9E;&#x4F8B;&#x7684;&#x521B;&#x5EFA;&#x653E;&#x5230;&#x5177;&#x4F53;&#x5DE5;&#x5382;&#x7684;&#x5B50;&#x7C7B;&#x4E2D;&#xFF0C;&#x964D;&#x4F4E;&#x4EE3;&#x7801;&#x8026;&#x5408;&#x5EA6;&#xFF0C; &#x65B9;&#x4FBF;&#x540E;&#x671F;&#x7EF4;&#x62A4;<pre><code class="lang-js"><span class="hljs-keyword">let</span> WechatUser = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{}
+WechatUser.prototype = {
+  getName: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;&#x62BD;&#x8C61;&#x65B9;&#x6CD5;&#x4E0D;&#x80FD;&#x8C03;&#x7528;&apos;</span>);
+  }
+}
+</code></pre>
+</li>
 </ul>
 
                                 
@@ -542,10 +576,6 @@
             
                 
                 
-                <a href="interview_arrayMethods.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 数组方法">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-                
             
         
     </div>
@@ -553,7 +583,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"遍历方法","level":"1.3.1","depth":2,"next":{"title":"数组方法","level":"1.3.2","depth":2,"path":"ES6/interview_arrayMethods.md","ref":"ES6/interview_arrayMethods.md","articles":[]},"previous":{"title":"ES6","level":"1.3","depth":1,"ref":"","articles":[{"title":"遍历方法","level":"1.3.1","depth":2,"path":"ES6/interview_iterator.md","ref":"ES6/interview_iterator.md","articles":[]},{"title":"数组方法","level":"1.3.2","depth":2,"path":"ES6/interview_arrayMethods.md","ref":"ES6/interview_arrayMethods.md","articles":[]},{"title":"数组拓展","level":"1.3.3","depth":2,"path":"ES6/interview_arrayExpand.md","ref":"ES6/interview_arrayExpand.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","github","expandable-chapters","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/Huai-Dc"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"qq":true,"all":["google","facebook","weibo","twitter","qq","qzone","linkedin","pocket"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"Huai","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"HuaiBook's Title","language":"zh-hans","gitbook":"3.2.3","description":"记笔记的地方"},"file":{"path":"ES6/interview_iterator.md","mtime":"2020-03-13T09:23:55.103Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-08T05:39:38.975Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"工厂模式","level":"1.6.1","depth":2,"previous":{"title":"设计模式","level":"1.6","depth":1,"ref":"","articles":[{"title":"工厂模式","level":"1.6.1","depth":2,"path":"DesignMode/interview_mode_factory.md","ref":"DesignMode/interview_mode_factory.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","github","expandable-chapters","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/Huai-Dc"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"qq":true,"all":["google","facebook","weibo","twitter","qq","qzone","linkedin","pocket"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"Huai","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"HuaiBook's Title","language":"zh-hans","gitbook":"3.2.3","description":"记笔记的地方"},"file":{"path":"DesignMode/interview_mode_factory.md","mtime":"2020-04-03T08:19:01.567Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-08T05:39:38.975Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
