@@ -1,0 +1,12 @@
+.page-inner{
+    width: 100%;
+    padding: 0 80px;
+    max-width: inherit;
+}
+.book-summary{
+    display: flex;
+    flex-direction: column;
+}
+.book-summary>nav{
+    flex: 1;
+}
