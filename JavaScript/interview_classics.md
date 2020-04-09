@@ -9,7 +9,9 @@ parseInt("1", 0) // 1
 parseInt("2", 1)// 1 不在 2~36的范围内所以返回NaN
 parseInt("3", 2)// 二进制没有3 所以返回NaN
 ```
-## JS 执行机制
+## JS 执行机制 (Event Loop)
+- 为了协调事件、用户交互、脚本、渲染、联网等
+
 ```js
 setTimeout(()=>{
     console.log("1")
@@ -126,6 +128,7 @@ new Promise((resolve)=> {
 
 ### 组件之间的传值？
 - 父组件与子组件传值
+
 ```vue
 //父组件通过标签上面定义传值
 <template>

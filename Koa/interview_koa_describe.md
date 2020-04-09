@@ -1,6 +1,7 @@
 ## Koa 初识
 ### 基本用法
 - 架设一个 http 服务
+
 ```js
 const Koa = require('koa');
 const app = new Koa();
@@ -9,6 +10,7 @@ app.listen(3000);
 ```
 - Context对象
     - Koa 提供一个Context对象表示一次对话的上下文，表示一次对话的上下文，Context.response.body 属性就是发给用户的内容
+
 ```js
 const Koa = require('koa');
 const app = new Koa();
@@ -40,6 +42,7 @@ const main = ctx => {
 }
 ```
 - 网页模板
+
 ```js
 const fs = require('fs');
 
@@ -51,6 +54,7 @@ const main = ctx => {
 ### 路由
 - 原生路由 通过ctx.request.path 可以获取用户请求的路径
 - 使用 koa-route
+
 ```js
 const route = require('koa-route');
 
@@ -68,6 +72,7 @@ app.use(route.get('/about', about));
 ```
 - 静态资源 koa-static
 - 重定向 ctx.response.redirect() 可以发出一个302跳转，导向另一个 路由
+
 ```js
 const redirect = ctx => {
   ctx.response.redirect('/');
@@ -79,6 +84,7 @@ app.use(route.get('/redirect', redirect));
 
 ### 中间件
 - Koa 最重要的设计就是中间件
+
 ```js
 const logger = (ctx, next) => {
   console.log(`${Date.now()} ${ctx.request.method} ${ctx.request.url}`);
@@ -88,6 +94,7 @@ app.use(logger); // 加载中间件
 ```
 - 处于Request 与 Response的中间，用来实现某种中间功能，中间件默认接收两个参数 Context 对象与 next 函数
 - 中间件栈 多个中间件会形成一个栈结构 以 先进后出的顺序执行
+
 ```text
 1.执行最外层中间件
 2.执行下一个中间件
@@ -99,6 +106,7 @@ app.use(logger); // 加载中间件
 ```
 - 中间件内部没调用 next 执行权就不会传递下去
 - 异步中间件 有异步操作（读取数据库）中间件必须写成 async函数
+
 ```js
 const fs = require('fs.promised');
 const Koa = require('koa');
@@ -113,6 +121,7 @@ app.use(main);
 app.listen(3000);
 ```
 - 中间件合成 koa-compose 可以将多个中间件合成一个
+
 ```js
 const middlewares = compose([logger, main]);
 ```
@@ -128,6 +137,7 @@ const middlewares = compose([logger, main]);
 - 处理错误中间件
     - try.. catch 比较繁琐 需要写的多
     - 让最外层中间件 统一处理
+    
     ```js
     const handler = async (ctx, next) => {
       try {
@@ -149,6 +159,7 @@ const middlewares = compose([logger, main]);
     ```
 - error事件监听 运行过程一旦出错，Koa 会触发 error事件
 - 释放error事件 如果被try。。catch捕获就不会触发error事件，这时必须手动调用 ctx.app.emit() 手动释放
+
 ```js
 const handler = async (ctx, next) => {
   try {
