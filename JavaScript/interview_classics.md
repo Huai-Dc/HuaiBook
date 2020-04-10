@@ -9,6 +9,16 @@ parseInt("1", 0) // 1
 parseInt("2", 1)// 1 不在 2~36的范围内所以返回NaN
 parseInt("3", 2)// 二进制没有3 所以返回NaN
 ```
+
+- 对象是引用类型 所有赋值 是地址的引用
+```js
+var a = {n:1};
+var b = a;
+a.x = a = {n:2}  // `.`的优先级比较高 先在 开始a指向的地方开辟一个 x  然后执行 a = {n:2} 指向{n:2} 然后赋值给 a.x a又指向回原来的地址
+// a  {n:1,x:{n:2}}
+// b  {n:1}
+```
+
 ## JS 执行机制 (Event Loop)
 - 为了协调事件、用户交互、脚本、渲染、联网等
 
@@ -100,8 +110,23 @@ new Promise((resolve)=> {
 
 ### 使用不当的情况
 - 减少全局变量
-- 没用后手动释放全局变量
-- null 是个关键字  undefined是变量
+- 没用后手动释放全局变量 （变量 = undefined）
+- null 是个关键字  undefined是变量  // null 不能赋值  undefined 可以被赋值
+- 缓存不限制（node端更需要注意）（缓存加锁）
+```js
+var a = [], size = 20*1024*1024
+for(var i=0;i<15; i++){
+    if(a.length > 4){ // 先进先出
+        a.shift()
+    }
+    a.push(new Array(size))
+}
+```
+- 操作大文件（大文件上传）
+- 分段切片上传
+- node端（大文件读取）
+    - 建议不用 fs.readFile() // 一次性全部读到内存
+    - 可以用流的方式 fs.ReadStream
 
 
 ### 什么是mvvm

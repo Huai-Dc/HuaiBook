@@ -2,22 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e716cb1-bf8a-49da-be48-c48ae760c5ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ES6/interview_Reflect.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/interview-implicit-conversion.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/JavaScript/interview-implicit-conversion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/JavaScript/interview_classics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/Koa/interview_koa_describe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/Optimize/interview_ssr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Css/example/BFC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Css/interview_BFC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Css/interview_basic.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/images/event-loop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/interview_classics_2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/interview_closure.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/interview_prototype.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue/interview/interview_auto_import_components.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue/interview/interview_lession_1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/JavaScript/interview_closure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/JavaScript/interview_prototype.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_lession_1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/interview_flex.md" beforeDir="false" afterPath="$PROJECT_DIR$/Css/interview_flex.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/interview_classics.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/interview_classics.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Koa/interview_koa_describe.md" beforeDir="false" afterPath="$PROJECT_DIR$/Koa/interview_koa_describe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUMMARY.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Css/interview_flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Css/interview_flex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/DesignMode/interview_mode_factory.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/DesignMode/interview_mode_factory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/ES6/interview_Reflect.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/ES6/interview_Reflect.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/ES6/interview_arrayExpand.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/ES6/interview_arrayExpand.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/ES6/interview_arrayMethods.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/ES6/interview_arrayMethods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/ES6/interview_iterator.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/ES6/interview_iterator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/JavaScript/interview-implicit-conversion.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/JavaScript/interview-implicit-conversion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/JavaScript/interview_classics.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/JavaScript/interview_classics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Koa/interview_koa_describe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Koa/interview_koa_describe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Optimize/interview_optimize_vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Optimize/interview_optimize_vue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Optimize/interview_ssr.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Optimize/interview_ssr.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_class&amp;style.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_class&amp;style.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_mvvm.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_mvvm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_paramsPassing.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_paramsPassing.html" afterDir="false" />
@@ -26,7 +37,6 @@
       <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_vueX.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_vueX.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/_book/search_index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/website.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/website.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,19 +61,22 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaScript/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaScript/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Optimize/images" />
       <recent name="$PROJECT_DIR$/Vue/images" />
@@ -95,7 +109,9 @@
       <workItem from="1586222011276" duration="402000" />
       <workItem from="1586223437544" duration="853000" />
       <workItem from="1586313086922" duration="7977000" />
-      <workItem from="1586417377507" duration="5587000" />
+      <workItem from="1586417377507" duration="5990000" />
+      <workItem from="1586426673874" duration="204000" />
+      <workItem from="1586484301803" duration="11644000" />
     </task>
     <task id="LOCAL-00001" summary="提交 vuex 笔记">
       <created>1584349477818</created>
@@ -139,11 +155,25 @@
       <option name="project" value="LOCAL" />
       <updated>1586336200030</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="es6 内容提交+隐式转换">
+      <created>1586426228252</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586426228252</updated>
+    </task>
+    <task id="LOCAL-00008" summary="es6 内容提交+隐式转换">
+      <created>1586426277170</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586426277170</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
@@ -155,31 +185,32 @@
     <MESSAGE value="vue3 题目提交" />
     <MESSAGE value="设计模式 提交" />
     <MESSAGE value="面试题提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="面试题提交" />
+    <MESSAGE value="es6 内容提交+隐式转换" />
+    <option name="LAST_COMMIT_MESSAGE" value="es6 内容提交+隐式转换" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585896780750">
+    <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586500120007">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1585896780750" />
-    <state x="1095" y="23" key="CommitChangelistDialog2" timestamp="1586336199823">
+    <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1586500120007" />
+    <state x="1095" y="23" key="CommitChangelistDialog2" timestamp="1586426277078">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1584958727567" />
-    <state x="1095" y="23" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1586336199823" />
+    <state x="1095" y="23" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1586426277078" />
     <state x="237" y="130" key="SettingsEditor" timestamp="1584349445098">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="237" y="130" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1584349445098" />
-    <state x="328" y="227" key="Vcs.Push.Dialog.v2" timestamp="1586336202123">
+    <state x="328" y="227" key="Vcs.Push.Dialog.v2" timestamp="1586426733394">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="328" y="226" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1584958737707" />
-    <state x="328" y="227" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1586336202123" />
-    <state x="802" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585098444687">
+    <state x="328" y="227" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1586426733394" />
+    <state x="802" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586426341208">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="802" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.977@0.23.1920.977" timestamp="1585098444687" />
+    <state x="802" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.977@0.23.1920.977" timestamp="1586426341208" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1584957293712">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

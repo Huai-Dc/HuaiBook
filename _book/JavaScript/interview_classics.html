@@ -137,6 +137,32 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.1.2" data-path="../Css/interview_BFC.html">
+            
+                <a href="../Css/interview_BFC.html">
+            
+                    
+                    BFC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="../Css/interview_basic.html">
+            
+                <a href="../Css/interview_basic.html">
+            
+                    
+                    经典题目
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -502,8 +528,47 @@
             
         </li>
     
+        <li class="chapter " data-level="1.8.3" data-path="interview_closure.html">
+            
+                <a href="interview_closure.html">
+            
+                    
+                    闭包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="interview_prototype.html">
+            
+                <a href="interview_prototype.html">
+            
+                    
+                    原型链
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <a target="_blank" href="http://47.98.159.95/my_blog/js-base/007.html#%E5%80%BC%E5%BE%97%E8%AD%A6%E6%83%95%E7%9A%84%E7%82%B9">
+            
+                    
+                    神三元博客
+            
+                </a>
+            
+
             
         </li>
     
@@ -554,7 +619,8 @@
                                 
                                 <h2 id="&#x7ECF;&#x5178;&#x9898;&#x76EE;">&#x7ECF;&#x5178;&#x9898;&#x76EE;</h2>
 <ul>
-<li>[1,2,3].map(parseInt)<pre><code class="lang-js">[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>].map(<span class="hljs-built_in">parseInt</span>)
+<li><p>[1,2,3].map(parseInt)</p>
+<pre><code class="lang-js">[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>].map(<span class="hljs-built_in">parseInt</span>)
 <span class="hljs-comment">// [1, NaN, NaN]</span>
 <span class="hljs-comment">// parseInt &#x6709;&#x4E24;&#x4E2A;&#x53C2;&#x6570; parseInt(s,radix)</span>
 <span class="hljs-comment">// radix &#x503C;&#x4E3A;0 &#x6216;&#x7701;&#x7565; &#x5219;&#x4EE5;10 &#x6765;&#x89E3;&#x6790; &#x4EE5;0x&#x6216;0X&#x5F00;&#x5934;&#x5219;&#x4EE5;16&#x8FDB;&#x5236;&#x89E3;&#x6790; &#x4E0D;&#x5728;&#x8303;&#x56F4;&#x5185;&#x5219;&#x8FD4;&#x56DE;NaN</span>
@@ -562,8 +628,18 @@
 <span class="hljs-built_in">parseInt</span>(<span class="hljs-string">&quot;2&quot;</span>, <span class="hljs-number">1</span>)<span class="hljs-comment">// 1 &#x4E0D;&#x5728; 2~36&#x7684;&#x8303;&#x56F4;&#x5185;&#x6240;&#x4EE5;&#x8FD4;&#x56DE;NaN</span>
 <span class="hljs-built_in">parseInt</span>(<span class="hljs-string">&quot;3&quot;</span>, <span class="hljs-number">2</span>)<span class="hljs-comment">// &#x4E8C;&#x8FDB;&#x5236;&#x6CA1;&#x6709;3 &#x6240;&#x4EE5;&#x8FD4;&#x56DE;NaN</span>
 </code></pre>
-<h2 id="js-&#x6267;&#x884C;&#x673A;&#x5236;-event-loop">JS &#x6267;&#x884C;&#x673A;&#x5236; (Event Loop)</h2>
 </li>
+<li><p>&#x5BF9;&#x8C61;&#x662F;&#x5F15;&#x7528;&#x7C7B;&#x578B; &#x6240;&#x6709;&#x8D4B;&#x503C; &#x662F;&#x5730;&#x5740;&#x7684;&#x5F15;&#x7528;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> a = {n:<span class="hljs-number">1</span>};
+<span class="hljs-keyword">var</span> b = a;
+a.x = a = {n:<span class="hljs-number">2</span>}  <span class="hljs-comment">// `.`&#x7684;&#x4F18;&#x5148;&#x7EA7;&#x6BD4;&#x8F83;&#x9AD8; &#x5148;&#x5728; &#x5F00;&#x59CB;a&#x6307;&#x5411;&#x7684;&#x5730;&#x65B9;&#x5F00;&#x8F9F;&#x4E00;&#x4E2A; x  &#x7136;&#x540E;&#x6267;&#x884C; a = {n:2} &#x6307;&#x5411;{n:2} &#x7136;&#x540E;&#x8D4B;&#x503C;&#x7ED9; a.x a&#x53C8;&#x6307;&#x5411;&#x56DE;&#x539F;&#x6765;&#x7684;&#x5730;&#x5740;</span>
+<span class="hljs-comment">// a  {n:1,x:{n:2}}</span>
+<span class="hljs-comment">// b  {n:1}</span>
+</code></pre>
+</li>
+</ul>
+<h2 id="js-&#x6267;&#x884C;&#x673A;&#x5236;-event-loop">JS &#x6267;&#x884C;&#x673A;&#x5236; (Event Loop)</h2>
+<ul>
 <li>&#x4E3A;&#x4E86;&#x534F;&#x8C03;&#x4E8B;&#x4EF6;&#x3001;&#x7528;&#x6237;&#x4EA4;&#x4E92;&#x3001;&#x811A;&#x672C;&#x3001;&#x6E32;&#x67D3;&#x3001;&#x8054;&#x7F51;&#x7B49;</li>
 </ul>
 <pre><code class="lang-js">setTimeout(()=&gt;{
@@ -656,8 +732,24 @@ setTimeout(()=&gt;{
 <h3 id="&#x4F7F;&#x7528;&#x4E0D;&#x5F53;&#x7684;&#x60C5;&#x51B5;">&#x4F7F;&#x7528;&#x4E0D;&#x5F53;&#x7684;&#x60C5;&#x51B5;</h3>
 <ul>
 <li>&#x51CF;&#x5C11;&#x5168;&#x5C40;&#x53D8;&#x91CF;</li>
-<li>&#x6CA1;&#x7528;&#x540E;&#x624B;&#x52A8;&#x91CA;&#x653E;&#x5168;&#x5C40;&#x53D8;&#x91CF;</li>
-<li>null &#x662F;&#x4E2A;&#x5173;&#x952E;&#x5B57;  undefined&#x662F;&#x53D8;&#x91CF;</li>
+<li>&#x6CA1;&#x7528;&#x540E;&#x624B;&#x52A8;&#x91CA;&#x653E;&#x5168;&#x5C40;&#x53D8;&#x91CF; &#xFF08;&#x53D8;&#x91CF; = undefined&#xFF09;</li>
+<li>null &#x662F;&#x4E2A;&#x5173;&#x952E;&#x5B57;  undefined&#x662F;&#x53D8;&#x91CF;  // null &#x4E0D;&#x80FD;&#x8D4B;&#x503C;  undefined &#x53EF;&#x4EE5;&#x88AB;&#x8D4B;&#x503C;</li>
+<li>&#x7F13;&#x5B58;&#x4E0D;&#x9650;&#x5236;&#xFF08;node&#x7AEF;&#x66F4;&#x9700;&#x8981;&#x6CE8;&#x610F;&#xFF09;&#xFF08;&#x7F13;&#x5B58;&#x52A0;&#x9501;&#xFF09;<pre><code class="lang-js"><span class="hljs-keyword">var</span> a = [], size = <span class="hljs-number">20</span>*<span class="hljs-number">1024</span>*<span class="hljs-number">1024</span>
+<span class="hljs-keyword">for</span>(<span class="hljs-keyword">var</span> i=<span class="hljs-number">0</span>;i&lt;<span class="hljs-number">15</span>; i++){
+  <span class="hljs-keyword">if</span>(a.length &gt; <span class="hljs-number">4</span>){ <span class="hljs-comment">// &#x5148;&#x8FDB;&#x5148;&#x51FA;</span>
+      a.shift()
+  }
+  a.push(<span class="hljs-keyword">new</span> <span class="hljs-built_in">Array</span>(size))
+}
+</code></pre>
+</li>
+<li>&#x64CD;&#x4F5C;&#x5927;&#x6587;&#x4EF6;&#xFF08;&#x5927;&#x6587;&#x4EF6;&#x4E0A;&#x4F20;&#xFF09;</li>
+<li>&#x5206;&#x6BB5;&#x5207;&#x7247;&#x4E0A;&#x4F20;</li>
+<li>node&#x7AEF;&#xFF08;&#x5927;&#x6587;&#x4EF6;&#x8BFB;&#x53D6;&#xFF09;<ul>
+<li>&#x5EFA;&#x8BAE;&#x4E0D;&#x7528; fs.readFile() // &#x4E00;&#x6B21;&#x6027;&#x5168;&#x90E8;&#x8BFB;&#x5230;&#x5185;&#x5B58;</li>
+<li>&#x53EF;&#x4EE5;&#x7528;&#x6D41;&#x7684;&#x65B9;&#x5F0F; fs.ReadStream</li>
+</ul>
+</li>
 </ul>
 <h3 id="&#x4EC0;&#x4E48;&#x662F;mvvm">&#x4EC0;&#x4E48;&#x662F;mvvm</h3>
 <ul>
@@ -915,7 +1007,7 @@ index.html&#xFF0C;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x8DEF;&#x7531;&#x51FA;&#x53E
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"第一部分","level":"1.8.1","depth":2,"next":{"title":"隐式转换","level":"1.8.2","depth":2,"path":"JavaScript/interview-implicit-conversion.md","ref":"JavaScript/interview-implicit-conversion.md","articles":[]},"previous":{"title":"经典题目","level":"1.8","depth":1,"ref":"","articles":[{"title":"第一部分","level":"1.8.1","depth":2,"path":"JavaScript/interview_classics.md","ref":"JavaScript/interview_classics.md","articles":[]},{"title":"隐式转换","level":"1.8.2","depth":2,"path":"JavaScript/interview-implicit-conversion.md","ref":"JavaScript/interview-implicit-conversion.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","github","expandable-chapters","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/Huai-Dc"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"qq":true,"all":["google","facebook","weibo","twitter","qq","qzone","linkedin","pocket"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"Huai","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"HuaiBook's Title","language":"zh-hans","gitbook":"3.2.3","description":"记笔记的地方"},"file":{"path":"JavaScript/interview_classics.md","mtime":"2020-04-09T07:57:06.563Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-09T09:36:18.519Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"第一部分","level":"1.8.1","depth":2,"next":{"title":"隐式转换","level":"1.8.2","depth":2,"path":"JavaScript/interview-implicit-conversion.md","ref":"JavaScript/interview-implicit-conversion.md","articles":[]},"previous":{"title":"经典题目","level":"1.8","depth":1,"ref":"","articles":[{"title":"第一部分","level":"1.8.1","depth":2,"path":"JavaScript/interview_classics.md","ref":"JavaScript/interview_classics.md","articles":[]},{"title":"隐式转换","level":"1.8.2","depth":2,"path":"JavaScript/interview-implicit-conversion.md","ref":"JavaScript/interview-implicit-conversion.md","articles":[]},{"title":"闭包","level":"1.8.3","depth":2,"path":"JavaScript/interview_closure.md","ref":"JavaScript/interview_closure.md","articles":[]},{"title":"原型链","level":"1.8.4","depth":2,"path":"JavaScript/interview_prototype.md","ref":"JavaScript/interview_prototype.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","github","expandable-chapters","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/Huai-Dc"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"qq":true,"all":["google","facebook","weibo","twitter","qq","qzone","linkedin","pocket"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"Huai","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"HuaiBook's Title","language":"zh-hans","gitbook":"3.2.3","description":"记笔记的地方"},"file":{"path":"JavaScript/interview_classics.md","mtime":"2020-04-10T02:36:26.963Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-10T02:05:16.604Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

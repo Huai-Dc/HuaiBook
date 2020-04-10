@@ -2,6 +2,8 @@
 * Css
     * 知识点
         * [flex](Css/interview_flex.md)
+        * [BFC](Css/interview_BFC.md)
+        * [经典题目](Css/interview_basic.md)
 * ES6
     * [遍历方法](ES6/interview_iterator.md)
     * [数组方法](ES6/interview_arrayMethods.md)
@@ -27,3 +29,7 @@
 * 经典题目
     * [第一部分](JavaScript/interview_classics.md)
     * [隐式转换](JavaScript/interview-implicit-conversion.md)
+    * [闭包](JavaScript/interview_closure.md)
+    * [原型链](JavaScript/interview_prototype.md)
+    
+* [神三元博客](http://47.98.159.95/my_blog/js-base/007.html#%E5%80%BC%E5%BE%97%E8%AD%A6%E6%83%95%E7%9A%84%E7%82%B9)

@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>工厂模式 · HuaiBook's Title</title>
+        <title>BFC · HuaiBook's Title</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -53,6 +53,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="interview_basic.html" />
+    
+    
+    <link rel="prev" href="interview_flex.html" />
     
 
     </head>
@@ -122,9 +126,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1.1" data-path="../Css/interview_flex.html">
+        <li class="chapter " data-level="1.2.1.1" data-path="interview_flex.html">
             
-                <a href="../Css/interview_flex.html">
+                <a href="interview_flex.html">
             
                     
                     flex
@@ -135,9 +139,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.1.2" data-path="../Css/interview_BFC.html">
+        <li class="chapter active" data-level="1.2.1.2" data-path="interview_BFC.html">
             
-                <a href="../Css/interview_BFC.html">
+                <a href="interview_BFC.html">
             
                     
                     BFC
@@ -148,9 +152,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.1.3" data-path="../Css/interview_basic.html">
+        <li class="chapter " data-level="1.2.1.3" data-path="interview_basic.html">
             
-                <a href="../Css/interview_basic.html">
+                <a href="interview_basic.html">
             
                     
                     经典题目
@@ -468,9 +472,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.7.1" data-path="interview_mode_factory.html">
+        <li class="chapter " data-level="1.7.1" data-path="../DesignMode/interview_mode_factory.html">
             
-                <a href="interview_mode_factory.html">
+                <a href="../DesignMode/interview_mode_factory.html">
             
                     
                     工厂模式
@@ -600,7 +604,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >工厂模式</a>
+        <a href=".." >BFC</a>
     </h1>
 </div>
 
@@ -615,93 +619,34 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="&#x5DE5;&#x5382;&#x6A21;&#x5F0F;">&#x5DE5;&#x5382;&#x6A21;&#x5F0F;</h2>
+                                <h3 id="&#x662F;&#x4EC0;&#x4E48;">&#x662F;&#x4EC0;&#x4E48;</h3>
 <ul>
-<li>&#x7528;&#x4E8E;&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x7684;&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#xFF0C; &#x4E0D;&#x66B4;&#x9732;&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x7684;&#x5177;&#x4F53;&#x903B;&#x8F91;&#xFF0C;&#x5C06;&#x903B;&#x8F91;&#x5C01;&#x88C5;&#x4E8E;&#x51FD;&#x6570;&#x4E2D;<h3 id="&#x5206;&#x7C7B;">&#x5206;&#x7C7B;</h3>
-</li>
-<li>&#x7B80;&#x5355;&#x5DE5;&#x5382;&#xFF08;&#x9759;&#x6001;&#x5DE5;&#x5382;&#x65B9;&#x6CD5;&#xFF09;</li>
-<li>&#x590D;&#x6742;&#x5DE5;&#x5382;</li>
-<li>&#x62BD;&#x8C61;&#x5DE5;&#x5382;<h3 id="&#x7B80;&#x5355;&#x5DE5;&#x5382;">&#x7B80;&#x5355;&#x5DE5;&#x5382;</h3>
-</li>
-<li>&#x4F20;&#x5165;&#x4E00;&#x4E2A;&#x5408;&#x6CD5;&#x53C2;&#x6570;&#xFF0C;&#x5C31;&#x80FD;&#x83B7;&#x53D6;&#x60F3;&#x8981;&#x7684;&#x5BF9;&#x8C61;&#xFF0C; &#x4E0D;&#x9700;&#x8981;new &#x5173;&#x952E;&#x5B57;&#x6765;&#x521B;&#x5EFA;&#x65B0;&#x5B9E;&#x4F8B;</li>
-<li>&#x51FD;&#x6570;&#x5185;&#x90E8;&#x5305;&#x542B;&#x6240;&#x6709;&#x5BF9;&#x8C61;&#x7684;&#x6784;&#x9020;&#x4E0E;&#x903B;&#x8F91;&#x5224;&#x65AD;</li>
-<li>&#x4F7F;&#x7528;&#x4E00;&#x4E2A;&#x7C7B;&#x6765;&#x751F;&#x6210;&#x5B9E;&#x4F8B;&#xFF0C; &#x7F3A;&#x70B9;&#x5C31;&#x662F;&#x5F53;&#x7C7B;&#x578B;&#x8F83;&#x591A;&#x7684;&#x65F6;&#x5019;&#x4E0D;&#x5229;&#x4E8E;&#x7EF4;&#x62A4;</li>
+<li>&#x6D6E;&#x52A8;&#x5143;&#x7D20;&#x548C;&#x7EDD;&#x5BF9;&#x5B9A;&#x4F4D;&#x5143;&#x7D20;&#xFF0C;&#x975E;&#x5757;&#x7EA7;&#x76D2;&#x5B50;&#x7684;&#x5757;&#x7EA7;&#x5BB9;&#x5668;&#x4EE5;&#x53CA;overflow&#x4E0D;&#x4E3A;visible&#x7684;&#x5757;&#x7EA7;&#x76D2;&#x5B50;</li>
 </ul>
-<pre><code class="lang-js"><span class="hljs-keyword">let</span> factory = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">role</span>) </span>{
-    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">superman</span>(<span class="hljs-params"></span>) </span>{
-        <span class="hljs-keyword">this</span>.name =<span class="hljs-string">&apos;&#x8D85;&#x7EA7;&#x7BA1;&#x7406;&#x5458;&apos;</span>;
-        <span class="hljs-keyword">this</span>.role = [<span class="hljs-string">&apos;&#x4FEE;&#x6539;&#x5BC6;&#x7801;&apos;</span>, <span class="hljs-string">&apos;&#x53D1;&#x5E03;&#x6D88;&#x606F;&apos;</span>, <span class="hljs-string">&apos;&#x67E5;&#x770B;&#x4E3B;&#x9875;&apos;</span>]
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">commonMan</span>(<span class="hljs-params"></span>) </span>{
-        <span class="hljs-keyword">this</span>.name = <span class="hljs-string">&apos;&#x666E;&#x901A;&#x6E38;&#x5BA2;&apos;</span>;
-        <span class="hljs-keyword">this</span>.role = [<span class="hljs-string">&apos;&#x67E5;&#x770B;&#x4E3B;&#x9875;&apos;</span>]
-    }
-
-    <span class="hljs-keyword">switch</span>(role) {
-        <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;superman&apos;</span>:
-            <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> superman();
-            <span class="hljs-keyword">break</span>;
-        <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;man&apos;</span>:
-            <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> commonMan();
-            <span class="hljs-keyword">break</span>;
-        <span class="hljs-keyword">default</span>:
-            <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;&#x53C2;&#x6570;&#x9519;&#x8BEF;&apos;</span>)
-    }
-}
-
-<span class="hljs-keyword">let</span> superman = factory(<span class="hljs-string">&apos;superman&apos;</span>);
-<span class="hljs-keyword">let</span> man = factory(<span class="hljs-string">&apos;man&apos;</span>);
-</code></pre>
-<h3 id="&#x590D;&#x6742;&#x5DE5;&#x5382;&#x6A21;&#x5F0F;">&#x590D;&#x6742;&#x5DE5;&#x5382;&#x6A21;&#x5F0F;</h3>
-<pre><code class="lang-js"><span class="hljs-comment">// &#x5B89;&#x5168;&#x6A21;&#x5F0F;&#x521B;&#x5EFA;&#x7684;&#x5DE5;&#x5382;&#x65B9;&#x6CD5;&#x51FD;&#x6570;</span>
-<span class="hljs-keyword">let</span> factory = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">role</span>) </span>{
-    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span> <span class="hljs-keyword">instanceof</span> factory) {
-        <span class="hljs-keyword">var</span> s = <span class="hljs-keyword">new</span> <span class="hljs-keyword">this</span>[role]();
-        <span class="hljs-keyword">return</span> s;
-    } <span class="hljs-keyword">else</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> factory(role);
-    }
-}
-
-factory.prototype = {
-    admin: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
-        <span class="hljs-keyword">this</span>.name = <span class="hljs-string">&apos;&#x5E73;&#x53F0;&#x7528;&#x6237;&apos;</span>;
-        <span class="hljs-keyword">this</span>.role = [<span class="hljs-string">&apos;&#x767B;&#x5F55;&#x9875;&apos;</span>, <span class="hljs-string">&apos;&#x4E3B;&#x9875;&apos;</span>]
-
-    },
-    common: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
-        <span class="hljs-keyword">this</span>.name = <span class="hljs-string">&apos;&#x6E38;&#x5BA2;&apos;</span>;
-        <span class="hljs-keyword">this</span>.role = [<span class="hljs-string">&apos;&#x767B;&#x5F55;&#x9875;&apos;</span>]
-    },
-    test: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
-        <span class="hljs-keyword">this</span>.name = <span class="hljs-string">&apos;&#x6D4B;&#x8BD5;&apos;</span>;
-        <span class="hljs-keyword">this</span>.role =  [<span class="hljs-string">&apos;&#x767B;&#x5F55;&#x9875;&apos;</span>, <span class="hljs-string">&apos;&#x4E3B;&#x9875;&apos;</span>, <span class="hljs-string">&apos;&#x6D4B;&#x8BD5;&#x9875;&apos;</span>];
-        <span class="hljs-keyword">this</span>.test = <span class="hljs-string">&apos;&#x6211;&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#x6D4B;&#x8BD5;&#x5C5E;&#x6027;&#x54E6;&apos;</span>
-    }
-}
-
-<span class="hljs-keyword">let</span> admin = <span class="hljs-keyword">new</span> factory(<span class="hljs-string">&apos;admin&apos;</span>);
-<span class="hljs-keyword">let</span> common = <span class="hljs-keyword">new</span> factory(<span class="hljs-string">&apos;common&apos;</span>);
-<span class="hljs-keyword">let</span> test = <span class="hljs-keyword">new</span> factory(<span class="hljs-string">&apos;test&apos;</span>);
-</code></pre>
+<h3 id="&#x89E6;&#x53D1;&#x6761;&#x4EF6;">&#x89E6;&#x53D1;&#x6761;&#x4EF6;</h3>
 <ul>
-<li>&#x76F8;&#x8F83;&#x4E8E;&#x7B80;&#x5355;&#x5DE5;&#x5382;&#xFF0C; &#x6B64;&#x5904;&#x65B0;&#x589E;&#x6784;&#x9020;&#x53EA;&#x9700;&#x8981;&#x4FEE;&#x6539;&#x4E0B;&#x9762;&#x7684;&#x90E8;&#x5206;</li>
-<li>&#x9700;&#x8981;&#x7528;new&#x5173;&#x952E;&#x5B57;&#x5B9E;&#x4F8B;&#x5316;&#x65B0;&#x7684;&#x5B9E;&#x4F8B;</li>
+<li>&#x6839;&#x5143;&#x7D20;</li>
+<li>&#x6D6E;&#x52A8;&#x5143;&#x7D20;&#xFF08;&#x5143;&#x7D20;float&#x4E0D;&#x4E3A;none&#xFF09;</li>
+<li>&#x7EDD;&#x5BF9;&#x5B9A;&#x4F4D;&#x5143;&#x7D20;&#xFF08;absolute fixed&#xFF09;</li>
+<li>&#x884C;&#x5185;&#x5757;&#x5143;&#x7D20; &#xFF08;inline-block&#xFF09;</li>
+<li>&#x8868;&#x683C;&#x5355;&#x5143;&#x683C; &#xFF08;display:table-cell&#xFF09;</li>
+<li>&#x8868;&#x683C;&#x6807;&#x9898;</li>
+<li>&#x533F;&#x540D;&#x8868;&#x683C;&#x5355;&#x5143;&#x683C;&#x5143;&#x7D20;</li>
+<li>overflow &#x503C;&#x4E0D;&#x4E3A; visible&#x7684;&#x5757;&#x5143;&#x7D20;</li>
+<li>&#x5F39;&#x6027;&#x5143;&#x7D20; display flex inline-flex</li>
+<li>&#x7F51;&#x683C;&#x5143;&#x7D20; display grid inline-grid</li>
 </ul>
-<h3 id="&#x62BD;&#x8C61;&#x5DE5;&#x5382;">&#x62BD;&#x8C61;&#x5DE5;&#x5382;</h3>
+<h3 id="&#x6E32;&#x67D3;&#x89C4;&#x5219;">&#x6E32;&#x67D3;&#x89C4;&#x5219;</h3>
 <ul>
-<li><a href="https://www.cnblogs.com/jswang/p/7660669.html" target="_blank">&#x53C2;&#x8003;</a></li>
-<li>&#x62BD;&#x8C61;&#x5DE5;&#x5382;&#x662F;&#x5B9E;&#x73B0;&#x5B50;&#x7C7B;&#x7EE7;&#x627F;&#x7236;&#x7C7B;&#x7684;&#x65B9;&#x6CD5;</li>
-<li>js &#x4E2D;&#x6CA1;&#x6709;&#x5B9E;&#x73B0; abstract&#xFF0C; &#x53EF;&#x4EE5;&#x5728;&#x7C7B;&#x65B9;&#x6CD5;&#x4E2D;&#x629B;&#x51FA;&#x9519;&#x8BEF;&#x6765;&#x6A21;&#x62DF;</li>
-<li>&#x5C06;&#x5B9E;&#x4F8B;&#x7684;&#x521B;&#x5EFA;&#x653E;&#x5230;&#x5177;&#x4F53;&#x5DE5;&#x5382;&#x7684;&#x5B50;&#x7C7B;&#x4E2D;&#xFF0C;&#x964D;&#x4F4E;&#x4EE3;&#x7801;&#x8026;&#x5408;&#x5EA6;&#xFF0C; &#x65B9;&#x4FBF;&#x540E;&#x671F;&#x7EF4;&#x62A4;<pre><code class="lang-js"><span class="hljs-keyword">let</span> WechatUser = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{}
-WechatUser.prototype = {
-  getName: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
-      <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;&#x62BD;&#x8C61;&#x65B9;&#x6CD5;&#x4E0D;&#x80FD;&#x8C03;&#x7528;&apos;</span>);
-  }
-}
-</code></pre>
-</li>
+<li>BFC&#x5782;&#x76F4;&#x65B9;&#x5411;&#x8FB9;&#x8DDD;&#x91CD;&#x53E0;</li>
+<li>BFC&#x533A;&#x57DF;&#x4E0D;&#x4F1A;&#x4E0E;&#x6D6E;&#x52A8;&#x5143;&#x7D20;&#x7684;box&#x91CD;&#x53E0;</li>
+<li>BFC&#x662F;&#x4E2A;&#x72EC;&#x7ACB;&#x5BB9;&#x5668;&#xFF0C;&#x5916;&#x9762;&#x5143;&#x7D20;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5185;&#x90E8;&#x5143;&#x7D20;</li>
+<li>&#x8BA1;&#x7B97;&#x6D6E;&#x52A8;&#x5143;&#x7D20;&#x9AD8;&#x5EA6;&#x65F6;&#xFF0C;&#x6D6E;&#x52A8;&#x5143;&#x7D20;&#x4E5F;&#x4F1A;&#x53C2;&#x4E0E;&#x8BA1;&#x7B97;&#xFF08;overflow:hidden &#x6E05;&#x9664;&#x6D6E;&#x52A8;&#xFF09;</li>
+</ul>
+<h3 id="&#x5E94;&#x7528;&#x573A;&#x666F;">&#x5E94;&#x7528;&#x573A;&#x666F;</h3>
+<ul>
+<li>&#x6E05;&#x9664;&#x6D6E;&#x52A8; &#x9632;&#x6B62;&#x7531;&#x4E8E;&#x6D6E;&#x52A8;&#x5BFC;&#x81F4;&#x7684;&#x7236;&#x5143;&#x7D20;&#x9AD8;&#x5EA6;&#x584C;&#x9677;</li>
+<li>&#x907F;&#x514D;&#x5916;&#x8FB9;&#x8DDD;&#x6298;&#x53E0;&#xFF08;&#x4E24;&#x4E2A;&#x76F8;&#x90BB;&#x7684;div margin &#x4F1A;&#x91CD;&#x53E0;&#x5230;&#x4E00;&#x8D77; &#x4E0D;&#x4F1A;&#x4E00;&#x8D77;&#x8BA1;&#x7B97;&#xFF0C; &#x8BBE;&#x7F6E;&#x540E;&#x53EF;&#x907F;&#x514D;</li>
 </ul>
 
                                 
@@ -730,6 +675,14 @@ WechatUser.prototype = {
 
             
                 
+                <a href="interview_flex.html" class="navigation navigation-prev " aria-label="Previous page: flex">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="interview_basic.html" class="navigation navigation-next " aria-label="Next page: 经典题目">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -738,7 +691,7 @@ WechatUser.prototype = {
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"工厂模式","level":"1.7.1","depth":2,"next":{"title":"经典题目","level":"1.8","depth":1,"ref":"","articles":[{"title":"第一部分","level":"1.8.1","depth":2,"path":"JavaScript/interview_classics.md","ref":"JavaScript/interview_classics.md","articles":[]},{"title":"隐式转换","level":"1.8.2","depth":2,"path":"JavaScript/interview-implicit-conversion.md","ref":"JavaScript/interview-implicit-conversion.md","articles":[]},{"title":"闭包","level":"1.8.3","depth":2,"path":"JavaScript/interview_closure.md","ref":"JavaScript/interview_closure.md","articles":[]},{"title":"原型链","level":"1.8.4","depth":2,"path":"JavaScript/interview_prototype.md","ref":"JavaScript/interview_prototype.md","articles":[]}]},"previous":{"title":"设计模式","level":"1.7","depth":1,"ref":"","articles":[{"title":"工厂模式","level":"1.7.1","depth":2,"path":"DesignMode/interview_mode_factory.md","ref":"DesignMode/interview_mode_factory.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","github","expandable-chapters","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/Huai-Dc"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"qq":true,"all":["google","facebook","weibo","twitter","qq","qzone","linkedin","pocket"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"Huai","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"HuaiBook's Title","language":"zh-hans","gitbook":"3.2.3","description":"记笔记的地方"},"file":{"path":"DesignMode/interview_mode_factory.md","mtime":"2020-04-03T08:19:01.567Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-10T02:05:16.604Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"BFC","level":"1.2.1.2","depth":3,"next":{"title":"经典题目","level":"1.2.1.3","depth":3,"path":"Css/interview_basic.md","ref":"Css/interview_basic.md","articles":[]},"previous":{"title":"flex","level":"1.2.1.1","depth":3,"path":"Css/interview_flex.md","ref":"Css/interview_flex.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","github","expandable-chapters","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/Huai-Dc"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"qq":true,"all":["google","facebook","weibo","twitter","qq","qzone","linkedin","pocket"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"Huai","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"HuaiBook's Title","language":"zh-hans","gitbook":"3.2.3","description":"记笔记的地方"},"file":{"path":"Css/interview_BFC.md","mtime":"2020-04-10T06:43:20.484Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-10T02:05:16.604Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

@@ -39,4 +39,4 @@
 - flex-basis        (分配多余空间前，项目占据的主轴空间，默认为 auto 本来的大小)
 - flex              (flex-grow\flex-shrink\flex-basis的简写 默认值为 0 1 auto)
 - flex-self         (允许单个项目与其他项目对齐方式不一样 默认为 auto)
-- [example](https://www.baidu.com)
+- [example](./example/flex.html)
