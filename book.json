@@ -13,7 +13,10 @@
   "plugins": [
     "-sharing",
     "github",
-    "expandable-chapters"
+    "expandable-chapters",
+    "anchors",
+    "anchor-navigation-ex",
+    "splitter"
   ],
   "pluginsConfig": {
     "github": {
