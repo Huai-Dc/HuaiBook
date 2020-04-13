@@ -75,7 +75,8 @@
       <workItem from="1586313086922" duration="7977000" />
       <workItem from="1586417377507" duration="5990000" />
       <workItem from="1586426673874" duration="204000" />
-      <workItem from="1586484301803" duration="11922000" />
+      <workItem from="1586484301803" duration="12612000" />
+      <workItem from="1586742218448" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="提交 vuex 笔记">
       <created>1584349477818</created>
@@ -140,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586506917079</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="增加锚点插件">
+      <created>1586507537220</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586507537220</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,27 +166,28 @@
     <MESSAGE value="面试题提交" />
     <MESSAGE value="es6 内容提交+隐式转换" />
     <MESSAGE value="css 题目及 js基础提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="css 题目及 js基础提交" />
+    <MESSAGE value="增加锚点插件" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加锚点插件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586500120007">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1586500120007" />
-    <state x="1095" y="23" key="CommitChangelistDialog2" timestamp="1586506916783">
+    <state x="1095" y="23" key="CommitChangelistDialog2" timestamp="1586507536949">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1584958727567" />
-    <state x="1095" y="23" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1586506916783" />
+    <state x="1095" y="23" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1586507536949" />
     <state x="237" y="130" key="SettingsEditor" timestamp="1584349445098">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="237" y="130" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1584349445098" />
-    <state x="328" y="227" key="Vcs.Push.Dialog.v2" timestamp="1586506919284">
+    <state x="328" y="227" key="Vcs.Push.Dialog.v2" timestamp="1586507539053">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="328" y="226" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1584958737707" />
-    <state x="328" y="227" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1586506919284" />
+    <state x="328" y="227" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1586507539053" />
     <state x="802" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586426341208">
       <screen x="0" y="23" width="1920" height="977" />
     </state>

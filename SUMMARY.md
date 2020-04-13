@@ -18,6 +18,8 @@
         * [render与template](Vue/interview/interview_render&template.md)
     * Vuex
         * [vuex知识点](Vue/interview/interview_vueX.md)
+    * 高频问题
+        * [题目集一](Vue/interview/interview_question_1.md)
 * Koa
     * [koa基础](Koa/interview_koa_describe.md)
 * 代码优化
