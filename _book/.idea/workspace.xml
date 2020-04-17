@@ -33,17 +33,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaScript/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Vue/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/JavaScript/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Optimize/images" />
       <recent name="$PROJECT_DIR$/Vue/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Vue/images" />
+      <recent name="$PROJECT_DIR$/JavaScript/images" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -77,6 +78,7 @@
       <workItem from="1586426673874" duration="204000" />
       <workItem from="1586484301803" duration="12612000" />
       <workItem from="1586742218448" duration="288000" />
+      <workItem from="1586768598276" duration="1571000" />
     </task>
     <task id="LOCAL-00001" summary="提交 vuex 笔记">
       <created>1584349477818</created>
@@ -148,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586507537220</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="vue 高频面试题 提交">
+      <created>1586770687368</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586770687368</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,27 +176,28 @@
     <MESSAGE value="es6 内容提交+隐式转换" />
     <MESSAGE value="css 题目及 js基础提交" />
     <MESSAGE value="增加锚点插件" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加锚点插件" />
+    <MESSAGE value="vue 高频面试题 提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue 高频面试题 提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586500120007">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="754" y="293" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1586500120007" />
-    <state x="1095" y="23" key="CommitChangelistDialog2" timestamp="1586507536949">
+    <state x="622" y="81" key="CommitChangelistDialog2" timestamp="1586770686945">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1584958727567" />
-    <state x="1095" y="23" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1586507536949" />
+    <state x="622" y="81" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1586770686945" />
     <state x="237" y="130" key="SettingsEditor" timestamp="1584349445098">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="237" y="130" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1584349445098" />
-    <state x="328" y="227" key="Vcs.Push.Dialog.v2" timestamp="1586507539053">
+    <state x="328" y="227" key="Vcs.Push.Dialog.v2" timestamp="1586770710115">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="328" y="226" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1584958737707" />
-    <state x="328" y="227" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1586507539053" />
+    <state x="328" y="227" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1586770710115" />
     <state x="802" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586426341208">
       <screen x="0" y="23" width="1920" height="977" />
     </state>

@@ -11,6 +11,10 @@
 // 4
 ```
 
+#### indexOf  includes
+- indexOf 返回符合条件的下标
+- includes 返回 true/false
+
 #### filter
 - filter 方法使用指定函数测试所有元素，并创建一个返回所有测试通过元素的数组，不改变原数组
 ```js
@@ -34,14 +38,16 @@ arr.forEach(item => {
 
 #### some 与 every
 - some与every都是JS中数组的迭代方法，只返回boolean值
-- some
+- every
     - 判断数组中是否每个元素都满足条件
     - 只有都满足才返回 true
-    - 有不满足的就返回false
-- every
+    - 有不满足的就返回 false
+    - 遇到return false 终止
+- some
     - 判断数组中是否至少有一个元素满足条件
-    - 只要有一个满足就返回true
-    - 只有都不满足才返回false
+    - 只要有一个满足就返回 true
+    - 只有都不满足才返回 false
+    - 遇到return true后终止
     
 ```js
 let arr = [1,2,3,4,5]
@@ -71,8 +77,17 @@ let newArr = arr.map((item, index, arr) => {
 
 #### reduce
 - reduce 函数接收一个函数作为累加器，数组中的每个值（从左到右）开始合并，最终为一个值
+- 不传递 initalValue 自动以第一个元素为初始值，然后从第二个元素开始累积
+
 ```js
 array.reduce(callback, initalValue);
+
+let nums = [1, 2, 3];
+// 多个数的加和
+let newNums = nums.reduce((preSum,curVal,array) =>{
+  return preSum + curVal; 
+}, 0);
+console.log(newNums);//6
 ```
 
 - callback 执行数组中每个值的函数，包含4个参数。
@@ -80,3 +95,77 @@ array.reduce(callback, initalValue);
     - currentValue 数组中当前被处理元素
     - index 当前元素在数组中的索引
     - array 调用 reduce 的数组（原始数组）
+    
+#### sort
+- 用于比较的函数，有两个默认参数，分别代表比较的两个元素
+
+```js
+let nums = [2, 3, 1];
+//两个比较的元素分别为a, b
+nums.sort(function(a, b) {
+  if(a > b) return 1;
+  else if(a < b) return -1;
+  else if(a == b) return 0;
+})
+```
+
+- 排序算法 升序
+
+```js
+let nums = [2,1,3]
+
+nums.sort((a, b) => {
+    return a-b // 反过来就是降序
+})
+
+nums // [1, 2, 3]
+```
+
+### 函数的arguments 为什么不是数组
+- argument 是个对象，属性从 0 开始最后还有 callee与length属性，我们将其称为类数组
+- 类似的还有
+    - 用querySelector获得的 nodelist
+    - getElementByTagName。。这类的获得的节点
+
+#### 由于其不是数组 会造成数组的方法不可用，以下是转换方法
+- Array.prototype.slice.call()
+
+```js
+function sum(a, b){
+    // 调用数组方法
+    let args = Array.prototype.slice.call(arguments)
+    args.reduce((sum, cur) => sum + cur);//args可以调用数组原生的方法啦
+}
+```
+
+- Array.from()
+
+```js
+function sum(a, b) {
+  let args = Array.from(arguments);
+  args.reduce((sum, cur) => sum + cur);//args可以调用数组原生的方法啦
+}
+```
+
+- ES6 展开运算符
+
+```js
+function sum(a, b) {
+  let args = [...arguments];
+  args.reduce((sum, cur) => sum + cur);
+}
+```
+
+- concat+apply
+
+```js
+function sum(a, b) {
+  let args = Array.prototype.concat.apply([], arguments);//apply方法会把第二个参数展开
+  args.reduce((sum, cur) => sum + cur);
+}
+```
+
+
+
+
+
