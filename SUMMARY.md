@@ -35,4 +35,6 @@
     * [闭包](JavaScript/interview_closure.md)
     * [原型链](JavaScript/interview_prototype.md)
     * [深拷贝/浅拷贝](JavaScript/interview_clone.md)
+* 博客
+    * [前端水印生成](Blog/watermark.md)
 * [神三元博客](http://47.98.159.95/my_blog/js-base/007.html#%E5%80%BC%E5%BE%97%E8%AD%A6%E6%83%95%E7%9A%84%E7%82%B9)
