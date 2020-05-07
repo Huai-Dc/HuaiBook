@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e716cb1-bf8a-49da-be48-c48ae760c5ff" name="Default Changelist" comment="笔记提交">
-      <change afterPath="$PROJECT_DIR$/Blog/image/mutationObserver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blog/watermark.md" afterDir="false" />
+    <list default="true" id="8e716cb1-bf8a-49da-be48-c48ae760c5ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaScript/interview_http&amp;https.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/interview_session.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/JavaScript/interview_http&amp;https.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/JavaScript/interview_session.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_function_modifier.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUMMARY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Blog/watermark.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Blog/watermark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Css/interview_BFC.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Css/interview_BFC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Css/interview_basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Css/interview_basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Css/interview_flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Css/interview_flex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/DesignMode/interview_mode_factory.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/DesignMode/interview_mode_factory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/ES6/interview_Reflect.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/ES6/interview_Reflect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/ES6/interview_arrayExpand.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/ES6/interview_arrayExpand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/ES6/interview_arrayMethods.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/ES6/interview_arrayMethods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/ES6/interview_iterator.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/ES6/interview_iterator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/JavaScript/interview-implicit-conversion.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/JavaScript/interview-implicit-conversion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/JavaScript/interview_classics.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/JavaScript/interview_classics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/JavaScript/interview_classics_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/JavaScript/interview_classics_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/JavaScript/interview_clone.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/JavaScript/interview_clone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/JavaScript/interview_closure.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/JavaScript/interview_closure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/JavaScript/interview_prototype.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/JavaScript/interview_prototype.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Koa/interview_koa_describe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Koa/interview_koa_describe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Optimize/interview_optimize_vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Optimize/interview_optimize_vue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Optimize/interview_ssr.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Optimize/interview_ssr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_class&amp;style.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_class&amp;style.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_mvvm.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_mvvm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_paramsPassing.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_paramsPassing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_question_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_question_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_render&amp;template.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_render&amp;template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_vdom.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_vdom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Vue/interview/interview_vueX.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Vue/interview/interview_vueX.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/_book/search_index.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +118,10 @@
       <workItem from="1586929986259" duration="8551000" />
       <workItem from="1587086055355" duration="176000" />
       <workItem from="1587086254751" duration="62000" />
-      <workItem from="1587619030005" duration="2452000" />
+      <workItem from="1587619030005" duration="3223000" />
+      <workItem from="1587716747393" duration="567000" />
+      <workItem from="1588747905190" duration="2627000" />
+      <workItem from="1588826650168" duration="2789000" />
     </task>
     <task id="LOCAL-00001" summary="提交 vuex 笔记">
       <created>1584349477818</created>
@@ -173,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587086189041</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="笔记提交">
+      <created>1587621950444</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587621950444</updated>
+    </task>
+    <task id="LOCAL-00014" summary="笔记提交">
+      <created>1588826691232</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588826691233</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,11 +253,11 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="698" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.977@0.23.1920.977" timestamp="1586931221674" />
-    <state x="622" y="81" key="CommitChangelistDialog2" timestamp="1587086214568">
+    <state x="622" y="23" key="CommitChangelistDialog2" timestamp="1588826691093">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1584958727567" />
-    <state x="622" y="81" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1587086214568" />
+    <state x="622" y="23" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1588826691093" />
     <state x="247" y="104" key="DiffContextDialog" timestamp="1587086098435">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
@@ -218,11 +266,11 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="237" y="130" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1584349445098" />
-    <state x="328" y="227" key="Vcs.Push.Dialog.v2" timestamp="1587086304740">
+    <state x="328" y="227" key="Vcs.Push.Dialog.v2" timestamp="1588826701423">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="328" y="226" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1584958737707" />
-    <state x="328" y="227" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1587086304740" />
+    <state x="328" y="227" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1588826701423" />
     <state x="802" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586426341208">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
