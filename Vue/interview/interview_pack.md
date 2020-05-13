@@ -65,7 +65,7 @@ module.exports = {
     ```js
     routes: [
           {
-              path: './test',
+              path: './demo',
               component: resolve => require(['@/components/Test'], resolve)
           }
     ]
