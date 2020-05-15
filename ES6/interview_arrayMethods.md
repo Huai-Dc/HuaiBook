@@ -165,7 +165,12 @@ function sum(a, b) {
 }
 ```
 
+#### slice
+- slice(start,end)第一个参数表示开始位置,第二个表示截取到的位置(不包含该位置)
 
+#### splice
+- splice(start,length)第一个参数开始位置,第二个参数截取长度
 
+https://zhuanlan.zhihu.com/p/81741778
 
 
