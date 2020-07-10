@@ -5,11 +5,15 @@
         * [flex](Css/interview_flex.md)
         * [BFC](Css/interview_BFC.md)
         * [经典题目](Css/interview_basic.md)
+        * [盒模型](Css/interview_box_model.md)
 * ES6
     * [遍历方法](ES6/interview_iterator.md)
     * [数组方法](ES6/interview_arrayMethods.md)
     * [数组拓展](ES6/interview_arrayExpand.md)
     * [Reflect](ES6/interview_Reflect.md)
+* TypeScript
+    * [介绍](TypeScript/introduce.md)
+    * [基础](TypeScript/base_1.md)
 * Vue
     * 知识点
         * [双向绑定](Vue/interview/interview_mvvm.md)
@@ -40,6 +44,11 @@
     * [深拷贝/浅拷贝](JavaScript/interview_clone.md)
     * [session原理与cookie](JavaScript/interview_session.md)
     * [http&https](JavaScript/interview_http&https.md)
+    
+* 开课吧
+    * [this](kaikeba/lession_1_this.md)
 * 博客
     * [前端水印生成](Blog/watermark.md)
+    * [浏览器缓存](Blog/browserCache.md)
 * [神三元博客](http://47.98.159.95/my_blog/js-base/007.html#%E5%80%BC%E5%BE%97%E8%AD%A6%E6%83%95%E7%9A%84%E7%82%B9)
+* [部署](https://www.zhihu.com/question/20790576)

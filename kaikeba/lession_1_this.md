@@ -95,3 +95,58 @@ setInterval('obj.fun()',1000);  // this指向obj对象
 
 - 作用一致，都是用来改变 函数中的this指向
 
+
+#### 构造函数中的this
+
+```js
+function Person(){
+    this.name = "Kang"
+    console.log(this)
+}
+
+let kang = new Person()
+// Person {name: 'Kang'}
+```
+
+- new 操作符
+    - 调用函数
+    - 自动创建一个空对象
+    - 把创建的对象与this绑定
+    - 如果构造函数没有返回值，则返回this对象
+
+```js
+// 经典题目
+function Person(){
+    this.name = 'A'
+}
+
+Person.name = "B"
+
+Person.prototype.name = 'C'
+
+let prototype = Person.prototype;
+
+Person.prototype.sayName = function(){
+    console.log(this.name)
+}
+
+let sayName = Person.prototype.sayName
+
+new Person().sayName() // A this 为新创建的实例
+
+prototype.sayName() // C
+
+sayName() // undefined 
+
+```
+
+- 构造函数中有返回值的情况
+    - return 的为非对象，返回的还是指向this
+    - return 的是对象，则返回的就是该对象
+    - 若返回的是 null 指向的还是 this
+    
+    
+#### 箭头函数中的this指向
+- 箭头函数本身没有 this 与 arguments 
+- 指向的是箭头函数运行环境的上下文， 对象不能形成独立作用域
+
