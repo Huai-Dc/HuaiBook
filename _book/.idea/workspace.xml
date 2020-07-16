@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c8c5fd6-9a2d-48bd-b3cc-ceedf1db1f8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Css/interview_box_model.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/base_1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/introduce.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/interview-cross-domain.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUMMARY.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/Blog/watermark.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Blog/watermark.html" afterDir="false" />
@@ -72,6 +70,8 @@
       <workItem from="1592359252055" duration="1889000" />
       <workItem from="1593308191393" duration="13703000" />
       <workItem from="1594015756593" duration="3487000" />
+      <workItem from="1594086348020" duration="15963000" />
+      <workItem from="1594865410956" duration="1918000" />
     </task>
     <task id="LOCAL-00001" summary="笔记提交">
       <created>1589546285645</created>
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591870158429</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="笔记提交">
+      <created>1594363954446</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594363954446</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,17 +112,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="笔记提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="23" key="CommitChangelistDialog2" timestamp="1591870158313">
+    <state x="705" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594865912648">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="567" y="23" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1591870158313" />
-    <state x="560" y="247" key="Vcs.Push.Dialog.v2" timestamp="1591870129994">
+    <state x="705" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1594865912648" />
+    <state x="567" y="23" key="CommitChangelistDialog2" timestamp="1594363954059">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="560" y="247" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1591870129994" />
+    <state x="567" y="23" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1594363954059" />
+    <state x="560" y="247" key="Vcs.Push.Dialog.v2" timestamp="1594363956557">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="560" y="247" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1594363956557" />
     <state x="761" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591861164547">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="761" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.977@0.23.1920.977" timestamp="1591861164547" />
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1594094029816">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1594094029816" />
   </component>
 </project>

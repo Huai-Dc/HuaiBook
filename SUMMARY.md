@@ -44,6 +44,8 @@
     * [深拷贝/浅拷贝](JavaScript/interview_clone.md)
     * [session原理与cookie](JavaScript/interview_session.md)
     * [http&https](JavaScript/interview_http&https.md)
+    * [跨域](JavaScript/interview-cross-domain.md)
+    * [V8引擎](JavaScript/interview_v8.md)
     
 * 开课吧
     * [this](kaikeba/lession_1_this.md)
