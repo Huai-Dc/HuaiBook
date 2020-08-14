@@ -21,15 +21,21 @@
         * [参数传递](Vue/interview/interview_paramsPassing.md)
         * [class与style](Vue/interview/interview_class&style.md)
         * [render与template](Vue/interview/interview_render&template.md)
+        * [vue 鉴权](Vue/interview/interview_authentication.md)
     * Vuex
         * [vuex知识点](Vue/interview/interview_vueX.md)
     * 高频问题
         * [题目集一](Vue/interview/interview_question_1.md)
 * Koa
     * [koa基础](Koa/interview_koa_describe.md)
+* Webpack
+    * [tree-shaking](webpack/tree-shaking.md)
+    
 * 代码优化
     * [vue代码优化](Optimize/interview_optimize_vue.md)
     * [vueSSR](Optimize/interview_ssr.md)
+* 力扣
+    * [魔术索引](Letcode/magic-index.md)
 * 前端测试
     * [jest](UnitTest/interview_jest.md)
 * 设计模式
@@ -54,3 +60,5 @@
     * [浏览器缓存](Blog/browserCache.md)
 * [神三元博客](http://47.98.159.95/my_blog/js-base/007.html#%E5%80%BC%E5%BE%97%E8%AD%A6%E6%83%95%E7%9A%84%E7%82%B9)
 * [部署](https://www.zhihu.com/question/20790576)
+* [股票]
+    * [基础](Stock/Base/lession_1.md)
