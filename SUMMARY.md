@@ -13,7 +13,8 @@
     * [Reflect](ES6/interview_Reflect.md)
 * TypeScript
     * [介绍](TypeScript/introduce.md)
-    * [基础](TypeScript/base_1.md)
+    * [基础](TypeScript/base.md)
+    * [进阶](TypeScript/advance.md)
 * Vue
     * 知识点
         * [双向绑定](Vue/interview/interview_mvvm.md)
@@ -26,6 +27,8 @@
         * [vuex知识点](Vue/interview/interview_vueX.md)
     * 高频问题
         * [题目集一](Vue/interview/interview_question_1.md)
+    * 小技巧
+        
 * Koa
     * [koa基础](Koa/interview_koa_describe.md)
 * Webpack
@@ -60,5 +63,5 @@
     * [浏览器缓存](Blog/browserCache.md)
 * [神三元博客](http://47.98.159.95/my_blog/js-base/007.html#%E5%80%BC%E5%BE%97%E8%AD%A6%E6%83%95%E7%9A%84%E7%82%B9)
 * [部署](https://www.zhihu.com/question/20790576)
-* [股票]
+* 股票
     * [基础](Stock/Base/lession_1.md)

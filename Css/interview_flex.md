@@ -1,12 +1,12 @@
-## flex
+## flex (容器与轴)
 - flex 是`flex-grow` `flex-shrink` `flex-basis`的缩写
 
-#### flex-grow
+#### flex-grow  （自身放大）
 - 当父控件还有剩余空间时,是否进行放大，其中数值代表放大比例，值为0时代表不放大
 - flex-grow 定义弹性盒子项（item）的拉伸因子
 - 负值无效
 
-#### flex-shrink
+#### flex-shrink （缩小比例）
 - 当父控件空间不足时，是否进行缩小，其中数值表示与控件大小有关的收缩比
 - 设置或检索弹性盒子的收缩比率
 - 不允许负值

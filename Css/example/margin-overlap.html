@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>边距重叠情况及处理</title>
+    <style>
+        .box{
+            border: 1px solid #dddddd;
+        }
+        .parent{
+            margin-top:20px;
+            margin-bottom:10px;
+            background-color: #e6e96e;
+        }
+        .child{
+            background-color: aquamarine;
+        }
+        .first{
+            margin-top:30px;
+            margin-bottom:30px;
+        }
+    </style>
+</head>
+<body>
+<div>情况一：相邻元素margin-bottom与margin-top重叠，可以将其中一个设置为BFC</div>
+<div style="margin-bottom: 30px">元素一 margin-bottom：30px</div>
+<div style="margin-top: 30px">元素二 margin-top: 30px;</div>
+<div>解决 设置元素一为BFC</div>
+<div style="margin-bottom: 30px;overflow: hidden;">元素一 margin-bottom：30px;overflow: hidden;</div>
+<div style="margin-top: 30px;overflow: hidden;">元素二 margin-top: 30px;</div>
+
+<div>情况二：父子元素margin-top重叠可以给父元素加border-top|padding-top来分隔，也可以将父元素设置为 BFC</div>
+<div class='parent'>
+    <div class='bchild first'>haha</div>
+</div>
+</body>
+</html>

@@ -23,3 +23,19 @@
 - 清除浮动 防止由于浮动导致的父元素高度塌陷
 - 避免外边距折叠（两个相邻的div margin 会重叠到一起 不会一起计算， 设置后可避免
 
+### 清除浮动
+- 浮动元素会导致父元素高度坍塌，影响布局
+    - 将父类设置为BFC， 一般使用 `overflow：hidden`，缺点是会裁剪溢出元素
+    - 使用clear属性
+    ```css
+    .clearfix::after {
+      content: '';
+      display: table; // clear 属性在块级元素下才能起作用
+      clear: both;
+    }
+    .clearfix {
+      *zoom: 1; // IE6+ 兼容
+    }
+    ```
+
+- 使用 `zoom` IE独有的属性，用来检索或设置对象的缩放比例。设置会触发`hasLayout` 属性，重新计算高度，解决高度坍塌问题。
