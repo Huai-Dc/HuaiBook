@@ -1,5 +1,29 @@
 ### 原始数据类型
-- 布尔值、数值、字符串、null、undefined、Symbol
+- 布尔值、数值、字符串、null、undefined、Symbol、bigInt (支持更大范围的整数值)
+
+#### bigInt
+- 支持任意精度的整数
+- number 运算时，只要超出一定范围会丢失精度
+- 防止丢失精度，让运算更可靠安全
+- 创建 `BigInt` 只要在整数末尾加 `n` 就可以
+
+```js
+console.log(9007199254740995n)  // >> 9007199254740995n
+console.log(9007199254740995)   // >> 9007199254740996
+BigInt(9007199254740995)
+```
+
+```typescript
+let foo: bigint = BigInt(100); // the BigInt function
+let bar: bigint = 100n; // a BigInt literal
+
+console.log(3.141592 * 10000n); // error
+```
+
+- BigInt 也可以用二进制 八进制 十六进制表示
+- 不能使用严格相等运算符比较 BigInt 与 Number 因为类型不同
+- bigInt 只能与 bigInt 做运算
+- BigInt 类型运算时会返回BigInt 类型 除法会自动向下取整
 
 #### Boolean
 - 声明
