@@ -12,16 +12,12 @@
   },
   "plugins": [
     "-sharing",
-    "github",
     "expandable-chapters",
     "anchors",
     "anchor-navigation-ex",
     "splitter"
   ],
   "pluginsConfig": {
-    "github": {
-      "url": "https://github.com/Huai-Dc"
-    },
     "sharing": {
       "douban": false,
       "facebook": false,

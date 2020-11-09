@@ -68,7 +68,6 @@ let map = new Map([
     [1,'a'],
     [2,'b']
 ])
-
 let arr = [...map.keys()]  // [1, 2]
 ```
 

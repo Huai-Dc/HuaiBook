@@ -149,4 +149,6 @@ sayName() // undefined
 #### 箭头函数中的this指向
 - 箭头函数本身没有 this 与 arguments 
 - 指向的是箭头函数运行环境的上下文， 对象不能形成独立作用域
+- 箭头函数中的this是在定义的时候确定的，后期使用call等方法是不会修改其中的this指向的
+- 修改 `this` 指向的方法有 `call(this,a,b,c)` `apply(this,[a,b,c])` `bind(this,a,b,c)()`（bind返回的是一个方法需要手动调用）
 
